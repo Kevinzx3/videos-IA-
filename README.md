@@ -32,3 +32,19 @@ dia-01/
 | Día | Video A | Video B |
 |---|---|---|
 | 01 | ¿Por qué eres más alto por la mañana? (Ciencia fácil) | Qué hacer si el mar te arrastra (Qué hacer si…) |
+
+## Render automático de videos (sin software de edición)
+
+`herramientas/animar/` anima cada video por código en estilo 2.5D de fieltro (Nico y Chispa), sintetiza música y SFX originales y mezcla con la voz:
+
+```bash
+cd herramientas/animar
+python3 ../alinear_voz.py ../../dia-01/datos/01-mas-alto-por-la-manana.json voz.wav   # tiempos reales
+python3 ../generar_subtitulos.py ../../dia-01/datos/01-*.json --salida ../../dia-01/subtitulos
+python3 render.py video_d01a imagen.mp4                                             # ~2 min con 4 núcleos
+python3 audio.py voz.wav imagen.sfx.json audio.wav --bpm 104 --corte 44.45 44.9     # música + SFX + voz, −14 LUFS
+ffmpeg -i imagen.mp4 -i audio.wav -vf "ass=../../dia-01/subtitulos/01-mas-alto-por-la-manana.ass" \
+  -c:v libx264 -crf 23 -maxrate 6M -bufsize 12M -c:a aac -b:a 192k -shortest final.mp4
+```
+
+Video terminado: `dia-01/videos/01-mas-alto-por-la-manana.mp4` (1080×1920, 30 fps, 59 s).

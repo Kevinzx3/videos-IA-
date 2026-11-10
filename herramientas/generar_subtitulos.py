@@ -85,7 +85,7 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Frase,Montserrat ExtraBold,96,&H00FFFFFF,&H00FFFFFF,&H00201A14,&H96000000,1,0,0,0,100,100,0,0,1,6,3,8,90,140,520,1
+Style: Frase,Inter Black,92,&H00FFFFFF,&H00FFFFFF,&H00201A14,&H96000000,1,0,0,0,100,100,0,0,1,6,3,8,90,140,520,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
