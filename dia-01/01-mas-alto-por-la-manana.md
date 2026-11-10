@@ -1,7 +1,9 @@
 # Día 01 · Video A: ¿Por qué eres más alto por la mañana?
 
 - **Formato:** Ciencia explicada fácil (cuerpo humano)
-- **Duración:** 58 s
+- **Duración:** 59 s
+- **Video final:** [`videos/01-mas-alto-por-la-manana.mp4`](videos/01-mas-alto-por-la-manana.mp4)
+- *Nota:* la locución final usa «Y no, no es ilusión», «Tranquilo, esto tiene botón de reinicio» y «¿A qué hora te medirás mañana?»; tiempos reales en `datos/01-mas-alto-por-la-manana.json`.
 - **Paleta:** "cuerpo" (morados y cian) que se alterna con un dormitorio cálido al amanecer
 - **Título (37 caracteres):** `¿Por qué eres más alto por la mañana?`
 - Títulos alternativos para pruebas A/B: `Ahora mismo eres más bajo que esta mañana` (41) · `Tu columna te roba 2 cm cada día` (32)

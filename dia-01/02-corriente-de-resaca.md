@@ -1,7 +1,9 @@
 # Día 01 · Video B: Qué hacer si el mar te arrastra
 
 - **Formato:** Qué hacer si… (supervivencia), con un giro de mito vs. realidad
-- **Duración:** 59 s
+- **Duración:** 60 s
+- **Video final:** [`videos/02-corriente-de-resaca.mp4`](videos/02-corriente-de-resaca.mp4)
+- *Nota:* los tiempos de esta tabla son los del guion original; la versión final se alineó con la locución real (ver `datos/02-corriente-de-resaca.json`).
 - **Paleta:** "mar" (cielo de atardecer azul-dorado, agua turquesa y canal oscuro)
 - **Título (54 caracteres):** `Qué hacer si el mar te arrastra (no nades a la orilla)`
 - Títulos alternativos: `Si el mar te arrastra, NO hagas esto` (35) · `Cómo escapar de una corriente de resaca` (39)
@@ -13,16 +15,16 @@
 | Tiempo | Bloque | Narración |
 |---|---|---|
 | 0,0–3,4 | **Gancho** | Si el mar te arrastra, nadar hacia la orilla puede ser tu peor error. |
-| 3,4–5,8 | Desarrollo | Esto es una corriente de resaca. |
+| 3,4–5,8 | Desarrollo | Es una corriente de resaca. |
 | 5,8–9,2 | | Las olas empujan agua hacia la playa, y esa agua tiene que volver. |
 | 9,2–12,2 | | Lo hace por un canal estrecho, como un río dentro del mar. |
 | 12,2–17,0 | | Y puede ir a casi dos metros y medio por segundo: más rápido que un nadador olímpico. |
-| 17,0–19,6 | | Si luchas contra ella, te agotas. Y ahí está el peligro. |
+| 17,0–19,6 | | Si luchas contra ella, te agotas. |
 | 19,6–23,0 | | Así que, paso uno: calma. Flota y respira. |
 | 23,0–29,0 | | Paso dos: nada en paralelo a la orilla. Estos canales suelen medir menos de veinticinco metros de ancho. |
 | 29,0–33,2 | | Paso tres: cuando ya no tire, vuelve a la playa en diagonal. |
 | 33,2–37,0 | | ¿Y si no puedes salir? Flota, levanta el brazo y pide ayuda a gritos. |
-| 37,0–40,6 | | ¿Cómo detectarla antes de entrar? Busca una franja donde las olas no rompen… |
+| 37,0–40,6 | | ¿Cómo detectarla? Busca una franja donde las olas no rompen, |
 | 40,6–44,2 | | …con agua más oscura, o con espuma y arena saliendo mar adentro. |
 | 44,2–46,0 | **Giro** | Y ahora, el giro: |
 | 46,0–49,4 | | mucha gente cree que estas corrientes te hunden. Falso. |

@@ -37,6 +37,12 @@ def guardar_wav(ruta, x):
         w.writeframes((est * 32767).astype(np.int16).tobytes())
 
 
+def _sumar(out, a, x):
+    if 0 <= a < len(out):
+        n = min(len(x), len(out) - a)
+        out[a:a + n] += x[:n]
+
+
 def t_(d):
     return np.arange(int(d * SR)) / SR
 
@@ -123,7 +129,7 @@ def sfx_tictac(d=1.5, n=8):
     for i in range(n):
         a = int(i * d / n * SR)
         c = sfx_click() * (0.8 if i % 2 else 0.5)
-        out[a:a + len(c)] += c[: len(out) - a]
+        _sumar(out, a, c)
     return out
 
 
@@ -189,6 +195,49 @@ def sfx_espacio(d=1.6):
     return x * np.sin(np.pi * t / d) * 0.25
 
 
+def sfx_chapoteo(d=0.9):
+    out = np.zeros(int(d * SR))
+    for i in range(6):
+        t = t_(0.12)
+        b = lp(ruido(0.12), 5) * env(len(t), 0.002, 0.04) * 1.2
+        a = int(rng.uniform(0, d - 0.12) * SR)
+        out[a:a + len(b)] += b
+    return out
+
+
+def sfx_ola(d=1.6):
+    t = t_(d)
+    return lp(ruido(d), 30) * 4 * np.sin(np.pi * t / d) ** 2 * 0.6
+
+
+def sfx_buzz():
+    t = t_(0.45)
+    saw = 2 * ((140 * t) % 1) - 1
+    return lp(saw, 3) * env(len(t), 0.005, 0.3) * 0.45
+
+
+def sfx_latido(d=1.3):
+    out = np.zeros(int(d * SR))
+    for i, a0 in enumerate((0.0, 0.18, 0.75, 0.93)):
+        t = t_(0.15)
+        b = np.sin(2 * np.pi * 55 * t) * env(len(t), 0.002, 0.05) * (0.9 if i % 2 == 0 else 0.6)
+        a = int(a0 * SR)
+        _sumar(out, a, b)
+    return out
+
+
+def sfx_alarma(d=1.0):
+    t = t_(d)
+    f = np.where((t * 4).astype(int) % 2 == 0, 880, 660)
+    return np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.18 * np.minimum(1, (d - t) * 10)
+
+
+def sfx_silbato(d=0.6):
+    t = t_(d)
+    f = 2600 + 120 * np.sin(2 * np.pi * 30 * t)
+    return (np.sin(2 * np.pi * np.cumsum(f) / SR) + lp(ruido(d), 2) * 0.15) * env(len(t), 0.01, 0.5) * 0.25
+
+
 SFX = {
     "whoosh": lambda: sfx_whoosh(), "whoosh_grave": lambda: sfx_whoosh(0.6, True),
     "whoosh_suave": lambda: sfx_whoosh(0.6) * 0.5, "whoosh_bajada": lambda: sfx_whoosh(0.8, True),
@@ -198,7 +247,8 @@ SFX = {
     "boing": sfx_boing, "click": sfx_click, "tictac": sfx_tictac, "riser_corto": lambda: sfx_riser(0.6),
     "riser_suave": lambda: sfx_riser(1.2, True), "scratch": sfx_scratch, "bonk": sfx_bonk,
     "burbujas": sfx_burbujas, "goteo": sfx_goteo, "paso": sfx_paso, "esfuerzo": lambda: sfx_estirar() * 0.6,
-    "estirar": sfx_estirar, "espacio": sfx_espacio,
+    "estirar": sfx_estirar, "espacio": sfx_espacio, "chapoteo": sfx_chapoteo, "ola": sfx_ola,
+    "buzz": sfx_buzz, "latido": sfx_latido, "alarma": sfx_alarma, "silbato": sfx_silbato,
 }
 
 
@@ -236,32 +286,32 @@ def musica(dur, bpm=104):
         for k, m in enumerate(ac):  # acorde rasgueado suave
             x = nota(hz(m), comp * 1.1) * 0.10
             a = int((t0 + k * 0.02) * SR)
-            out[a:a + len(x)] += x[: len(out) - a]
+            _sumar(out, a, x)
         for b in range(4):  # bajo
             if b in (0, 2, 3):
                 x = nota(hz(ac[0] - 12 + (7 if b == 3 else 0)), beat * 0.9, "bajo") * 0.22
                 a = int((t0 + b * beat) * SR)
-                out[a:a + len(x)] += x[: len(out) - a]
+                _sumar(out, a, x)
         for s in range(8):  # pizzicato juguetón
             if r.random() < 0.55:
                 x = nota(hz(r.choice(escala)), beat * 0.6, "pizz") * 0.08
                 a = int((t0 + s * beat / 2) * SR)
-                out[a:a + len(x)] += x[: len(out) - a]
+                _sumar(out, a, x)
         for b in range(4):  # batería
             tb = t0 + b * beat
             if b in (0, 2):
                 tk = t_(0.35)
                 k = np.sin(2 * np.pi * np.cumsum(45 + 110 * np.exp(-tk * 30)) / SR) * env(len(tk), 0.001, 0.12) * 0.35
                 a = int(tb * SR)
-                out[a:a + len(k)] += k[: len(out) - a]
+                _sumar(out, a, k)
             else:
                 sn = lp(ruido(0.2), 3) * env(int(0.2 * SR), 0.001, 0.06) * 0.12
                 a = int(tb * SR)
-                out[a:a + len(sn)] += sn[: len(out) - a]
+                _sumar(out, a, sn)
             for h in range(2):
                 hh = (ruido(0.05) - lp(ruido(0.05), 4)) * env(int(0.05 * SR), 0.001, 0.015) * 0.05
                 a = int((tb + h * beat / 2 + (0.02 if h else 0)) * SR)
-                out[a:a + len(hh)] += hh[: len(out) - a]
+                _sumar(out, a, hh)
     out += lp(ruido(dur + 2), 2) * 0.004  # "vinilo"
     out = lp(out, 2)
     return out[: int(dur * SR)]

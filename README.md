@@ -48,3 +48,6 @@ ffmpeg -i imagen.mp4 -i audio.wav -vf "ass=../../dia-01/subtitulos/01-mas-alto-p
 ```
 
 Video terminado: `dia-01/videos/01-mas-alto-por-la-manana.mp4` (1080×1920, 30 fps, 59 s).
+| 02 | El pulpo tiene 3 corazones… y uno se apaga al nadar (¿Sabías que…?) | ¿Solo usas el 10 % de tu cerebro? MITO (Mitos vs. realidad) |
+
+Videos terminados en `dia-0X/videos/`. Escenas de cada video: `herramientas/animar/video_d01a.py`, `video_d01b.py`, `video_d02a.py`, `video_d02b.py`.

@@ -1,27 +1,128 @@
 {
-  "id": "D01-V2",
-  "titulo": "Qué hacer si el mar te arrastra (no nades a la orilla)",
-  "enfasis": ["orilla", "peor", "resaca", "volver", "río", "olímpico", "agotas", "uno", "Calma", "dos", "paralelo", "tres", "diagonal", "ayuda", "oscura", "giro", "Falso", "alejan", "pánico", "sígueme"],
-  "segmentos": [
-    [0.0, 3.4, "Si el mar te arrastra, nadar hacia la orilla puede ser tu peor error."],
-    [3.4, 5.8, "Esto es una corriente de resaca."],
-    [5.8, 9.2, "Las olas empujan agua hacia la playa, y esa agua tiene que volver."],
-    [9.2, 12.2, "Lo hace por un canal estrecho, como un río dentro del mar."],
-    [12.2, 17.0, "Y puede ir a casi dos metros y medio por segundo: más rápido que un nadador olímpico."],
-    [17.0, 19.6, "Si luchas contra ella, te agotas. Y ahí está el peligro."],
-    [19.6, 20.8, "Así que, paso uno:"],
-    [20.8, 23.0, "calma. Flota y respira."],
-    [23.0, 24.2, "Paso dos:"],
-    [24.2, 29.0, "nada en paralelo a la orilla. Estos canales suelen medir menos de veinticinco metros de ancho."],
-    [29.0, 30.2, "Paso tres:"],
-    [30.2, 33.2, "cuando ya no tire, vuelve a la playa en diagonal."],
-    [33.2, 37.0, "¿Y si no puedes salir? Flota, levanta el brazo y pide ayuda a gritos."],
-    [37.0, 40.6, "¿Cómo detectarla antes de entrar? Busca una franja donde las olas no rompen…"],
-    [40.6, 44.2, "…con agua más oscura, o con espuma y arena saliendo mar adentro."],
-    [44.2, 46.0, "Y ahora, el giro:"],
-    [46.0, 49.4, "mucha gente cree que estas corrientes te hunden. Falso."],
-    [49.4, 52.6, "No te tiran hacia abajo: te alejan de la orilla."],
-    [52.6, 55.6, "Lo que agota es el pánico. Saber esto puede salvarte."],
-    [55.6, 59.0, "Guárdalo, compártelo con quien va a la playa y sígueme para más."]
+ "id": "D01-V2",
+ "titulo": "Qué hacer si el mar te arrastra (no nades a la orilla)",
+ "enfasis": [
+  "orilla",
+  "peor",
+  "resaca",
+  "volver",
+  "río",
+  "olímpico",
+  "agotas",
+  "uno",
+  "Calma",
+  "dos",
+  "paralelo",
+  "tres",
+  "diagonal",
+  "ayuda",
+  "oscura",
+  "giro",
+  "Falso",
+  "alejan",
+  "pánico",
+  "sígueme"
+ ],
+ "segmentos": [
+  [
+   0.0,
+   3.74,
+   "Si el mar te arrastra, nadar hacia la orilla puede ser tu peor error."
+  ],
+  [
+   3.74,
+   5.51,
+   "Es una corriente de resaca."
+  ],
+  [
+   5.51,
+   9.29,
+   "Las olas empujan agua hacia la playa, y esa agua tiene que volver."
+  ],
+  [
+   9.29,
+   12.56,
+   "Lo hace por un canal estrecho, como un río dentro del mar."
+  ],
+  [
+   12.56,
+   17.38,
+   "Y puede ir a casi dos metros y medio por segundo: más rápido que un nadador olímpico."
+  ],
+  [
+   17.38,
+   20.33,
+   "Si luchas contra ella, te agotas."
+  ],
+  [
+   20.33,
+   21.96,
+   "Así que, paso uno:"
+  ],
+  [
+   21.96,
+   23.58,
+   "calma. Flota y respira."
+  ],
+  [
+   23.58,
+   24.57,
+   "Paso dos:"
+  ],
+  [
+   24.57,
+   29.44,
+   "nada en paralelo a la orilla. Estos canales suelen medir menos de veinticinco metros de ancho."
+  ],
+  [
+   29.44,
+   30.46,
+   "Paso tres:"
+  ],
+  [
+   30.46,
+   33.18,
+   "cuando ya no tire, vuelve a la playa en diagonal."
+  ],
+  [
+   33.18,
+   37.69,
+   "¿Y si no puedes salir? Flota, levanta el brazo y pide ayuda a gritos."
+  ],
+  [
+   37.69,
+   41.5,
+   "¿Cómo detectarla? Busca una franja donde las olas no rompen,"
+  ],
+  [
+   41.5,
+   45.1,
+   "con agua más oscura, o con espuma y arena saliendo mar adentro."
+  ],
+  [
+   45.1,
+   46.7,
+   "Y ahora, el giro:"
+  ],
+  [
+   46.7,
+   50.02,
+   "mucha gente cree que estas corrientes te hunden. Falso."
+  ],
+  [
+   50.02,
+   52.72,
+   "No te tiran hacia abajo: te alejan de la orilla."
+  ],
+  [
+   52.72,
+   56.2,
+   "Lo que agota es el pánico. Saber esto puede salvarte."
+  ],
+  [
+   56.2,
+   59.78,
+   "Guárdalo, compártelo con quien va a la playa y sígueme para más."
   ]
+ ]
 }
