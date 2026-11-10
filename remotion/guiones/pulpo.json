@@ -1,0 +1,50 @@
+{
+ "id": "pulpo",
+ "categoria": "Curiosidades",
+ "titulo": "El pulpo: el animal más extraño del planeta",
+ "escenas": [
+  {
+   "texto": "Este animal tiene tres corazones, sangre azul, y piensa con los brazos.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a big orange octopus floating with tentacles spread, deep ocean, blue-green water with light rays, rocky seabed, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the octopus pulses and floats"
+  },
+  {
+   "texto": "Tiene *tres* corazones: dos mueven la sangre por las branquias, y uno por el resto del cuerpo.",
+   "rotulo": "3 CORAZONES",
+   "movimiento": "pan-der",
+   "prompt": "octopus with three glowing hearts visible inside its body, educational style, deep ocean, blue-green water with light rays, rocky seabed, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the three hearts beat"
+  },
+  {
+   "texto": "Su sangre es *azul*, porque usa cobre en vez de hierro para llevar el oxígeno.",
+   "rotulo": "SANGRE AZUL",
+   "movimiento": "zoom-in",
+   "prompt": "close-up of octopus skin with blue veins glowing, deep ocean, blue-green water with light rays, rocky seabed, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "blue light flows through the veins"
+  },
+  {
+   "texto": "Y unas dos terceras partes de sus neuronas están en sus *brazos*.",
+   "rotulo": "⅔ EN LOS BRAZOS",
+   "movimiento": "pan-izq",
+   "prompt": "octopus tentacles each with small glowing nerve lights, deep ocean, blue-green water with light rays, rocky seabed, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "tentacles move independently"
+  },
+  {
+   "texto": "Además cambia de color en menos de un segundo, y puede abrir frascos.",
+   "movimiento": "zoom-out",
+   "prompt": "octopus changing color while opening a glass jar, deep ocean, blue-green water with light rays, rocky seabed, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the octopus changes color and twists the lid"
+  },
+  {
+   "texto": "Síguenos para más animales increíbles.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "a cute octopus hiding inside a seashell, peeking out, deep ocean, blue-green water with light rays, rocky seabed, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the octopus peeks out"
+  }
+ ]
+}

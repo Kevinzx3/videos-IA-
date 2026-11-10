@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  AbsoluteFill, Audio, Img, Sequence, interpolate, random, spring, staticFile,
+  AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, interpolate, random, spring, staticFile,
   useCurrentFrame, useVideoConfig, Easing,
 } from 'remotion';
 import type {Datos, Escena, Palabra} from './tipos';
@@ -13,7 +13,7 @@ const Plano: React.FC<{e: Escena; dur: number}> = ({e, dur}) => {
   const p = interpolate(f, [0, dur], [0, 1], {extrapolateRight: 'clamp', easing: Easing.inOut(Easing.quad)});
   let escala = 1.04, x = 0, y = 0;
   switch (e.movimiento ?? 'zoom-in') {
-    case 'zoom-in': escala = 1.0 + 0.09 * p; break;
+    case 'zoom-in': escala = 1.0 + (e.imagen.endsWith('.mp4') ? 0.04 : 0.09) * p; break;
     case 'zoom-out': escala = 1.12 - 0.09 * p; break;
     case 'pan-izq': escala = 1.12; x = 40 - 80 * p; break;
     case 'pan-der': escala = 1.12; x = -40 + 80 * p; break;
@@ -25,10 +25,17 @@ const Plano: React.FC<{e: Escena; dur: number}> = ({e, dur}) => {
   const golpe = interpolate(f, [0, 6], [0.04, 0], {extrapolateRight: 'clamp'});
   return (
     <AbsoluteFill style={{overflow: 'hidden', backgroundColor: '#140f22'}}>
-      <Img src={staticFile(e.imagen)} style={{
-        width: '100%', height: '100%', objectFit: 'cover',
-        transform: `translate(${x}px, ${y}px) scale(${escala + golpe})`,
-      }}/>
+      {e.imagen.endsWith('.mp4') ? (
+        <OffthreadVideo muted src={staticFile(e.imagen)} style={{
+          width: '100%', height: '100%', objectFit: 'cover',
+          transform: `translate(${x}px, ${y}px) scale(${escala + golpe})`,
+        }}/>
+      ) : (
+        <Img src={staticFile(e.imagen)} style={{
+          width: '100%', height: '100%', objectFit: 'cover',
+          transform: `translate(${x}px, ${y}px) scale(${escala + golpe})`,
+        }}/>
+      )}
     </AbsoluteFill>
   );
 };

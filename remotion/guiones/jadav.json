@@ -1,0 +1,59 @@
+{
+ "id": "jadav",
+ "categoria": "Personas increíbles",
+ "titulo": "El hombre que plantó un bosque él solo",
+ "escenas": [
+  {
+   "texto": "En mil novecientos setenta y nueve, un chico de dieciséis años encontró algo que le cambió la vida.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a 16 year old Indian boy standing alone on an empty sandy riverbank, looking down sadly, wide river sandbar in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "wind blows sand, the boy kneels down"
+  },
+  {
+   "texto": "Decenas de serpientes muertas por el calor, en una isla de arena sin un solo *árbol*.",
+   "rotulo": "0 ÁRBOLES",
+   "movimiento": "pan-der",
+   "prompt": "empty barren sand island in a river under harsh sun, no trees, heat haze, wide river sandbar in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "heat waves shimmer over the sand"
+  },
+  {
+   "texto": "Así que Jadav Payeng tomó una decisión: plantar árboles. Todos los días.",
+   "movimiento": "zoom-in",
+   "prompt": "young Indian man planting a small bamboo sapling in the sand with his hands, wide river sandbar in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he presses soil around the sapling"
+  },
+  {
+   "texto": "Nadie lo ayudó. Durante *décadas*, plantó y regó él solo.",
+   "rotulo": "+40 AÑOS",
+   "movimiento": "pan-izq",
+   "prompt": "the same man older, carrying water buckets between rows of young trees, wide river sandbar in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he walks carrying water, trees grow taller in timelapse"
+  },
+  {
+   "texto": "Hoy ese bosque mide unas quinientas cincuenta hectáreas. Más grande que el *Central Park* de Nueva York.",
+   "rotulo": "550 HECTÁREAS",
+   "movimiento": "zoom-out",
+   "prompt": "aerial view of a huge green forest on a river island, dense lush tropical forest in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "slow drone pull back revealing the whole forest"
+  },
+  {
+   "texto": "Y volvieron los animales: elefantes, ciervos, rinocerontes, y hasta *tigres* de Bengala.",
+   "movimiento": "pan-der",
+   "sonidos": [
+    "gruñido"
+   ],
+   "prompt": "an elephant, a rhino, deer and a Bengal tiger in a lush forest, dense lush tropical forest in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the elephant walks, the tiger looks at the camera"
+  },
+  {
+   "texto": "Un solo hombre. Un bosque entero. Síguenos para más historias increíbles.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "old Indian man with white beard smiling, standing among tall trees, dense lush tropical forest in Assam India, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he smiles and looks up at the trees"
+  }
+ ]
+}

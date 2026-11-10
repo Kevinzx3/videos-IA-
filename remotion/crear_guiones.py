@@ -210,6 +210,12 @@ GUIONES = [
 ]
 
 
+from guiones_extra import GUIONES_EXTRA
+for _g in GUIONES:
+    _g.setdefault("categoria", "Qué hacer si...")
+GUIONES += GUIONES_EXTRA
+
+
 def main():
     os.makedirs(os.path.join(BASE, "guiones"), exist_ok=True)
     md = ["# Guiones y prompts\n",
@@ -223,7 +229,7 @@ def main():
         json.dump(g, open(os.path.join(BASE, "guiones", g["id"] + ".json"), "w", encoding="utf-8"),
                   ensure_ascii=False, indent=1)
         dur = sum(len(e["texto"].split()) for e in g["escenas"]) / 2.6
-        md.append(f"\n---\n\n## {g['titulo']}  (`{g['id']}`, ~{dur:.0f} s)\n")
+        md.append(f"\n---\n\n## [{g['categoria']}] {g['titulo']}  (`{g['id']}`, ~{dur:.0f} s)\n")
         md.append("**Narración completa (para ElevenLabs):**\n\n> " + " ".join(e["texto"].replace("*", "") for e in g["escenas"]) + "\n")
         for i, e in enumerate(g["escenas"], 1):
             md.append(f"\n### Escena {i}" + (f" — rótulo «{e['rotulo']}»" if e.get("rotulo") else ""))

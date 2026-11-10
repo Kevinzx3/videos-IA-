@@ -1,0 +1,50 @@
+{
+ "id": "piedras",
+ "categoria": "Misterios resueltos",
+ "titulo": "Las piedras que se mueven solas",
+ "escenas": [
+  {
+   "texto": "En el desierto del Valle de la Muerte hay piedras que se mueven solas, y dejan un rastro.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a large rock on a flat dry lakebed with a long trail behind it, flat cracked dry lakebed in Death Valley, dark mountains around, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the camera slowly follows the trail to the rock"
+  },
+  {
+   "texto": "Algunas pesan más de *cien* kilos, y nadie las había visto moverse jamás.",
+   "rotulo": "+100 kg",
+   "movimiento": "pan-der",
+   "prompt": "many rocks with long curving trails crossing the cracked desert floor, flat cracked dry lakebed in Death Valley, dark mountains around, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the trails glow faintly"
+  },
+  {
+   "texto": "Durante décadas se habló de imanes, de extraterrestres, y de bromas.",
+   "movimiento": "zoom-in",
+   "prompt": "a UFO silhouette and a magnet floating above the desert, dreamy, flat cracked dry lakebed in Death Valley, dark mountains around, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the UFO hovers and fades"
+  },
+  {
+   "texto": "Hasta que en dos mil catorce, unos científicos las grabaron con cámaras y GPS.",
+   "rotulo": "2014",
+   "movimiento": "pan-izq",
+   "prompt": "scientists placing a small camera and GPS on a rock, flat cracked dry lakebed in Death Valley, dark mountains around, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "a scientist adjusts the camera"
+  },
+  {
+   "texto": "La respuesta: en invierno se forma una capa fina de *hielo*, y el viento empuja las piedras sobre ella.",
+   "rotulo": "HIELO + VIENTO",
+   "movimiento": "zoom-out",
+   "prompt": "thin ice sheets on a shallow flooded desert lakebed pushing rocks, wind lines, flat cracked dry lakebed in Death Valley, dark mountains around, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "ice sheets slide slowly, rocks move"
+  },
+  {
+   "texto": "Síguenos para más misterios resueltos.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "a single rock at the end of its trail under the stars, flat cracked dry lakebed in Death Valley, dark mountains around, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "stars twinkle"
+  }
+ ]
+}

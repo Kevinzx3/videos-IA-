@@ -1,0 +1,56 @@
+{
+ "id": "yamaguchi",
+ "categoria": "Personas increíbles",
+ "titulo": "El hombre que sobrevivió a dos bombas atómicas",
+ "escenas": [
+  {
+   "texto": "Tsutomu Yamaguchi estaba en Hiroshima por trabajo, el seis de agosto de mil novecientos cuarenta y cinco.",
+   "movimiento": "zoom-in",
+   "prompt": "a Japanese engineer in a 1940s suit walking with a briefcase, 1940s Japanese city, wooden houses, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he walks along the street"
+  },
+  {
+   "texto": "Sobrevivió a la *primera* bomba atómica, con quemaduras graves.",
+   "rotulo": "HIROSHIMA",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a huge bright flash on the horizon over a city, silhouette of a man shielding his eyes, 1940s Japanese city, wooden houses, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "a blinding flash, dust blows, camera shake"
+  },
+  {
+   "texto": "Herido, volvió a su ciudad natal para recuperarse. Su ciudad era *Nagasaki*.",
+   "movimiento": "pan-der",
+   "prompt": "the same man with bandages riding an old train, looking out the window, 1940s Japanese city, wooden houses, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "landscape passes by the window"
+  },
+  {
+   "texto": "Tres días después, cayó la segunda bomba. Y otra vez, sobrevivió.",
+   "rotulo": "NAGASAKI",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "subida",
+    "golpe"
+   ],
+   "prompt": "a mushroom cloud rising far away over hills, small figure watching, 1940s Japanese city, wooden houses, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cloud rises slowly"
+  },
+  {
+   "texto": "Vivió hasta los *noventa y tres* años, hablando contra las armas nucleares.",
+   "rotulo": "93 AÑOS",
+   "movimiento": "zoom-in",
+   "prompt": "an elderly Japanese man speaking calmly, cherry blossoms around, 1940s Japanese city, wooden houses, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "petals fall gently"
+  },
+  {
+   "texto": "Síguenos para más historias que parecen imposibles.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-out",
+   "prompt": "a peaceful paper crane on a wooden table by a window, 1940s Japanese city, wooden houses, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "light moves across the paper crane"
+  }
+ ]
+}

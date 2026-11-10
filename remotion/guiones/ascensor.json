@@ -1,0 +1,51 @@
+{
+ "id": "ascensor",
+ "categoria": "Qué hacer si...",
+ "titulo": "Qué hacer si te quedas atrapado en un ascensor",
+ "escenas": [
+  {
+   "texto": "El ascensor se detiene de golpe, y las luces parpadean. ¿Qué haces?",
+   "movimiento": "temblor",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a person inside an elevator looking up worried as the lights flicker, inside a small modern elevator, metal walls, dim emergency light, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "lights flicker, elevator shakes"
+  },
+  {
+   "texto": "Primero, respira. Los ascensores tienen frenos de seguridad, y es muy raro que caigan.",
+   "rotulo": "RESPIRA",
+   "movimiento": "zoom-in",
+   "prompt": "cutaway illustration of an elevator in its shaft showing safety brakes, inside a small modern elevator, metal walls, dim emergency light, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the safety brakes glow"
+  },
+  {
+   "texto": "Pulsa el botón de *alarma* o usa el intercomunicador para pedir ayuda.",
+   "rotulo": "ALARMA",
+   "movimiento": "zoom-in",
+   "prompt": "close-up of a finger pressing a red bell alarm button on an elevator panel, inside a small modern elevator, metal walls, dim emergency light, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the button lights up"
+  },
+  {
+   "texto": "Si tienes señal, llama a emergencias y di en qué edificio estás.",
+   "movimiento": "pan-der",
+   "prompt": "person holding a phone inside the elevator, calm face, inside a small modern elevator, metal walls, dim emergency light, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the phone screen lights the face"
+  },
+  {
+   "texto": "Y *nunca* intentes abrir las puertas ni salir por el techo. Espera a los técnicos.",
+   "rotulo": "NO SALGAS",
+   "movimiento": "zoom-out",
+   "efecto": "peligro",
+   "prompt": "elevator doors slightly open showing the dark shaft wall, warning feeling, inside a small modern elevator, metal walls, dim emergency light, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the gap stays closed, light flickers"
+  },
+  {
+   "texto": "Guarda este video y síguenos para más consejos.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "elevator doors opening with firefighters smiling outside, inside a small modern elevator, metal walls, dim emergency light, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the doors slide open"
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+ "id": "hachiko",
+ "categoria": "Historias reales",
+ "titulo": "El perro que esperó a su dueño casi 10 años",
+ "escenas": [
+  {
+   "texto": "Todas las tardes, un perro llamado Hachiko esperaba a su dueño en la estación de Shibuya.",
+   "movimiento": "zoom-in",
+   "prompt": "a white Akita dog sitting on a train platform looking at an arriving train, 1930s Japanese train station Shibuya, wooden platform, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the train arrives, the dog wags its tail"
+  },
+  {
+   "texto": "Su dueño, un profesor, llegaba en el tren, y volvían juntos a casa.",
+   "movimiento": "pan-der",
+   "prompt": "a Japanese professor in a hat walking home with his white Akita dog, 1930s Japanese train station Shibuya, wooden platform, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "they walk side by side"
+  },
+  {
+   "texto": "Pero un día de mil novecientos veinticinco, el profesor *no* volvió. Había muerto en el trabajo.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "the white Akita dog alone on the empty platform, rain falling, 1930s Japanese train station Shibuya, wooden platform, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "rain falls, the dog looks around"
+  },
+  {
+   "texto": "Hachiko siguió yendo a la estación cada día. Durante casi *diez* años.",
+   "rotulo": "9 AÑOS Y 9 MESES",
+   "movimiento": "pan-izq",
+   "prompt": "the old Akita dog waiting at the station in the snow, people passing by, 1930s Japanese train station Shibuya, wooden platform, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "snow falls, seasons change"
+  },
+  {
+   "texto": "Hoy tiene una estatua en ese mismo lugar, y es símbolo de *lealtad* en todo el mundo.",
+   "rotulo": "LEALTAD",
+   "movimiento": "zoom-out",
+   "prompt": "a bronze statue of an Akita dog in a busy modern square, 1930s Japanese train station Shibuya, wooden platform, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "people walk past the statue"
+  },
+  {
+   "texto": "Si te emocionó, síguenos para más historias como esta.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "the white Akita dog and the professor reunited, walking into warm light, 1930s Japanese train station Shibuya, wooden platform, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "they walk into the light"
+  }
+ ]
+}

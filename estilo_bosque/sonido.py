@@ -30,7 +30,7 @@ def lowpass_fast(x, fc):
 
 
 def env_adsr(n, a, r):
-    e = np.ones(n); na, nr = int(a * SR), int(r * SR)
+    e = np.ones(n); na, nr = min(int(a * SR), n // 2), min(int(r * SR), n // 2)
     if na: e[:na] = np.linspace(0, 1, na)
     if nr: e[-nr:] *= np.linspace(1, 0, nr)
     return e

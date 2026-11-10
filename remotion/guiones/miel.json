@@ -1,0 +1,50 @@
+{
+ "id": "miel",
+ "categoria": "¿Sabías que...?",
+ "titulo": "La comida que nunca caduca",
+ "escenas": [
+  {
+   "texto": "¿Sabías que hay un alimento que puede durar miles de años sin estropearse?",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a glowing golden honey jar on a stone pedestal, ancient Egyptian tomb interior lit by torches, hieroglyphs on walls, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "light glints on the jar"
+  },
+  {
+   "texto": "Es la *miel*. En tumbas del antiguo Egipto se han encontrado vasijas con miel de unos tres mil años.",
+   "rotulo": "3.000 AÑOS",
+   "movimiento": "pan-der",
+   "prompt": "archaeologist with a torch discovering ancient clay pots, ancient Egyptian tomb interior lit by torches, hieroglyphs on walls, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "torch light flickers over the pots"
+  },
+  {
+   "texto": "Tiene muy poca agua y mucha azúcar, así que las bacterias no pueden vivir en ella.",
+   "rotulo": "SIN BACTERIAS",
+   "movimiento": "zoom-in",
+   "prompt": "microscopic view of honey with bacteria being pushed away, golden glowing background, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "bacteria float away"
+  },
+  {
+   "texto": "Además es ácida, y las abejas le añaden una enzima que la protege todavía más.",
+   "movimiento": "pan-izq",
+   "prompt": "bees working on a honeycomb, golden light, meadow at dusk, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "bees crawl on the honeycomb"
+  },
+  {
+   "texto": "Si se pone dura, no está mala: solo calienta el frasco al *baño María*.",
+   "rotulo": "BAÑO MARÍA",
+   "movimiento": "zoom-out",
+   "prompt": "a honey jar warming in a pot of water on a stove, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "steam rises gently"
+  },
+  {
+   "texto": "Síguenos para más datos que no sabías.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "honey dripping from a wooden dipper, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "honey drips slowly"
+  }
+ ]
+}

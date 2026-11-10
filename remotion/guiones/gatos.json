@@ -1,0 +1,50 @@
+{
+ "id": "gatos",
+ "categoria": "Curiosidades",
+ "titulo": "¿Por qué los gatos siempre caen de pie?",
+ "escenas": [
+  {
+   "texto": "Si un gato se cae, casi siempre aterriza de pie. ¿Cómo lo hace?",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "an orange cat falling upside down in mid air, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cat twists in the air"
+  },
+  {
+   "texto": "Tiene un *reflejo* especial, que desarrolla cuando tiene pocas semanas de vida.",
+   "rotulo": "REFLEJO",
+   "movimiento": "pan-der",
+   "prompt": "a small orange kitten playing on a sofa, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the kitten pounces"
+  },
+  {
+   "texto": "Primero gira la cabeza, luego la parte delantera del cuerpo, y después la trasera.",
+   "movimiento": "zoom-in",
+   "prompt": "three step sequence of a cat rotating its body while falling, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cat rotates front then back"
+  },
+  {
+   "texto": "Lo logra porque tiene una columna muy *flexible*, y su clavícula no está unida a otros huesos.",
+   "rotulo": "COLUMNA FLEXIBLE",
+   "movimiento": "pan-izq",
+   "prompt": "x-ray style illustration of a cat skeleton showing a flexible spine, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the spine glows and bends"
+  },
+  {
+   "texto": "Al final arquea la espalda y estira las patas, como un *paracaídas*.",
+   "rotulo": "PARACAÍDAS",
+   "movimiento": "zoom-out",
+   "prompt": "an orange cat with legs spread wide like a parachute just before landing, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cat lands softly on its paws"
+  },
+  {
+   "texto": "Aun así, una caída puede lastimarlo. Cierra las ventanas. Síguenos para más curiosidades.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "an orange cat sitting safely by a closed window, cozy apartment interior at dusk, warm lamp light, window with purple-orange sky, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cat blinks slowly"
+  }
+ ]
+}

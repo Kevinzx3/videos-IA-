@@ -1,0 +1,52 @@
+{
+ "id": "juliane",
+ "categoria": "Personas increíbles",
+ "titulo": "La chica que cayó tres kilómetros y sobrevivió",
+ "escenas": [
+  {
+   "texto": "Mil novecientos setenta y uno. Un avión se parte en el aire sobre la selva de Perú.",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "subida",
+    "golpe"
+   ],
+   "prompt": "an old propeller airplane breaking apart in a lightning storm above the jungle, high above clouds, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the plane breaks apart, lightning flashes"
+  },
+  {
+   "texto": "Juliane Koepcke, de diecisiete años, cae unos *tres* kilómetros atada a su asiento.",
+   "rotulo": "3 KM",
+   "movimiento": "zoom-in",
+   "prompt": "a teenage girl strapped to an airplane seat falling through clouds toward the rainforest, high above clouds, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the seat spins slowly as it falls"
+  },
+  {
+   "texto": "Despierta sola en la selva, con una clavícula rota. Y *viva*.",
+   "movimiento": "zoom-in",
+   "prompt": "teenage girl waking up on the jungle floor next to an airplane seat, dense Amazon rainforest, giant trees, small stream, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "she slowly opens her eyes"
+  },
+  {
+   "texto": "Recordó lo que le enseñó su padre: si te pierdes, sigue el agua. Los arroyos llevan a los ríos, y los ríos a la gente.",
+   "rotulo": "SIGUE EL AGUA",
+   "movimiento": "pan-der",
+   "prompt": "teenage girl walking through a shallow jungle stream, dense Amazon rainforest, giant trees, small stream, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "she wades through the stream"
+  },
+  {
+   "texto": "Sobrevivió *once* días en la selva, hasta que unos trabajadores la encontraron.",
+   "rotulo": "11 DÍAS",
+   "movimiento": "zoom-out",
+   "prompt": "a small wooden hut by a jungle river, men in a canoe arriving, dense Amazon rainforest, giant trees, small stream, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the canoe approaches the hut"
+  },
+  {
+   "texto": "Fue la única sobreviviente. Síguenos para más historias reales.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "the girl sitting safe wrapped in a blanket, looking at the river, dense Amazon rainforest, giant trees, small stream, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "she looks up, mist moves over the river"
+  }
+ ]
+}

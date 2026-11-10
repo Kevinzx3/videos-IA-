@@ -1,0 +1,52 @@
+{
+ "id": "wojtek",
+ "categoria": "Historias reales",
+ "titulo": "El oso que fue soldado en la Segunda Guerra Mundial",
+ "escenas": [
+  {
+   "texto": "En la Segunda Guerra Mundial, un ejército tenía un soldado muy especial: un *oso*.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "gruñido"
+   ],
+   "prompt": "a brown bear standing next to 1940s Polish soldiers in uniform, 1940s Italian mountains, army camp with tents and trucks, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the bear sniffs a soldier's hand"
+  },
+  {
+   "texto": "Se llamaba Wojtek. Lo adoptaron soldados polacos cuando era un cachorro.",
+   "movimiento": "pan-der",
+   "prompt": "a soldier bottle-feeding a small brown bear cub, 1940s Italian mountains, army camp with tents and trucks, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cub drinks from the bottle"
+  },
+  {
+   "texto": "Creció entre ellos, luchaba jugando, y hasta recibió un rango oficial en el ejército.",
+   "rotulo": "SOLDADO RASO",
+   "movimiento": "zoom-in",
+   "prompt": "a grown brown bear playfully wrestling with a laughing soldier, 1940s Italian mountains, army camp with tents and trucks, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "they wrestle playfully"
+  },
+  {
+   "texto": "Según sus compañeros, en la batalla de Montecassino ayudó a cargar cajas de *munición*.",
+   "rotulo": "MONTECASSINO 1944",
+   "movimiento": "temblor",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a brown bear carrying a wooden ammunition crate, explosions far in the background, 1940s Italian mountains, army camp with tents and trucks, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the bear walks carrying the crate, distant flashes"
+  },
+  {
+   "texto": "Después de la guerra vivió en el zoológico de Edimburgo, donde sus amigos lo visitaban.",
+   "movimiento": "zoom-out",
+   "prompt": "an old soldier visiting a brown bear at a zoo enclosure, Scottish zoo, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the bear walks toward the soldier"
+  },
+  {
+   "texto": "Síguenos para más historias increíbles de la historia.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "a bronze statue of a bear and a soldier walking together, city park, purple to orange dusk gradient sky with faint stars, 2D digital illustration, textured storybook style, soft painterly texture with fine grain, simple rounded shapes, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "leaves blow past the statue"
+  }
+ ]
+}
