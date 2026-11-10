@@ -1,0 +1,26 @@
+{
+  "id": "D01-V1",
+  "titulo": "¿Por qué eres más alto por la mañana?",
+  "enfasis": ["bajo", "columna", "esponjas", "gravedad", "exprimes", "centímetros", "primera", "reinicio", "hincharse", "alto", "despertar", "giro", "tres", "cinco", "Tierra", "Comenta", "sígueme"],
+  "segmentos": [
+    [0.0, 2.8, "Ahora mismo eres más bajo que cuando te levantaste."],
+    [2.8, 5.0, "Y no, no es una ilusión: es tu columna."],
+    [5.0, 8.4, "Entre vértebra y vértebra tienes unos cojines: los discos intervertebrales."],
+    [8.4, 11.0, "Imagínalos como esponjas empapadas de agua."],
+    [11.0, 14.2, "Durante el día, la gravedad te aplasta como a un sándwich."],
+    [14.2, 17.6, "Cada paso, cada salto, cada vez que cargas la mochila…"],
+    [17.6, 20.4, "…exprimes las esponjas. Gota a gota."],
+    [20.4, 24.4, "Resultado: por la noche mides entre uno y dos centímetros menos."],
+    [24.4, 27.6, "Y casi la mitad se va en la primera hora después de levantarte."],
+    [27.6, 30.0, "Pero tranquilo, que esto tiene botón de reinicio."],
+    [30.0, 32.6, "Cuando te acuestas, la presión desaparece…"],
+    [32.6, 35.8, "…y los discos vuelven a hincharse mientras duermes."],
+    [35.8, 38.8, "Te despiertas recargado. Literalmente más alto."],
+    [38.8, 42.8, "Así que, si quieres presumir de altura, mídete nada más despertar."],
+    [42.8, 44.6, "Y ahora, el giro:"],
+    [44.6, 48.4, "sin gravedad, los astronautas pueden crecer hasta un tres por ciento."],
+    [48.4, 52.0, "Alguien de un metro ochenta gana unos cinco centímetros en el espacio…"],
+    [52.0, 54.4, "…y los pierde al volver a la Tierra."],
+    [54.4, 58.0, "¿A qué hora te vas a medir mañana? Comenta y sígueme para más ciencia."]
+  ]
+}
