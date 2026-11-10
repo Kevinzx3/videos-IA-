@@ -1,0 +1,624 @@
+{
+ "id": "gatos",
+ "total": 28.748,
+ "audio": "gatos/mezcla.wav",
+ "escenas": [
+  {
+   "imagen": "gatos/escena1.mp4",
+   "ini": 0,
+   "fin": 4.093,
+   "movimiento": "zoom-in",
+   "rotulo": null,
+   "efecto": null
+  },
+  {
+   "imagen": "gatos/escena2.mp4",
+   "ini": 4.093,
+   "fin": 8.106,
+   "movimiento": "pan-der",
+   "rotulo": "REFLEJO",
+   "efecto": null
+  },
+  {
+   "imagen": "gatos/escena3.mp4",
+   "ini": 8.106,
+   "fin": 12.809,
+   "movimiento": "zoom-in",
+   "rotulo": null,
+   "efecto": null
+  },
+  {
+   "imagen": "gatos/escena4.mp4",
+   "ini": 12.809,
+   "fin": 18.059,
+   "movimiento": "pan-izq",
+   "rotulo": "COLUMNA FLEXIBLE",
+   "efecto": null
+  },
+  {
+   "imagen": "gatos/escena5.mp4",
+   "ini": 18.059,
+   "fin": 22.025,
+   "movimiento": "zoom-out",
+   "rotulo": "PARACAÍDAS",
+   "efecto": null
+  },
+  {
+   "imagen": "gatos/escena6.mp4",
+   "ini": 22.025,
+   "fin": 28.748,
+   "movimiento": "zoom-in",
+   "rotulo": "SÍGUENOS",
+   "efecto": null
+  }
+ ],
+ "palabras": [
+  {
+   "t0": 0.6,
+   "t1": 0.776,
+   "texto": "Si",
+   "clave": false,
+   "grupo": 0
+  },
+  {
+   "t0": 0.776,
+   "t1": 0.953,
+   "texto": "un",
+   "clave": false,
+   "grupo": 0
+  },
+  {
+   "t0": 0.953,
+   "t1": 1.217,
+   "texto": "gato",
+   "clave": false,
+   "grupo": 0
+  },
+  {
+   "t0": 1.217,
+   "t1": 1.393,
+   "texto": "se",
+   "clave": false,
+   "grupo": 0
+  },
+  {
+   "t0": 1.393,
+   "t1": 1.658,
+   "texto": "cae,",
+   "clave": false,
+   "grupo": 0
+  },
+  {
+   "t0": 1.658,
+   "t1": 1.922,
+   "texto": "casi",
+   "clave": false,
+   "grupo": 1
+  },
+  {
+   "t0": 1.922,
+   "t1": 2.319,
+   "texto": "siempre",
+   "clave": false,
+   "grupo": 1
+  },
+  {
+   "t0": 2.319,
+   "t1": 2.759,
+   "texto": "aterriza",
+   "clave": false,
+   "grupo": 1
+  },
+  {
+   "t0": 2.759,
+   "t1": 2.936,
+   "texto": "de",
+   "clave": false,
+   "grupo": 1
+  },
+  {
+   "t0": 2.936,
+   "t1": 3.2,
+   "texto": "pie.",
+   "clave": false,
+   "grupo": 1
+  },
+  {
+   "t0": 3.2,
+   "t1": 3.509,
+   "texto": "¿Cómo",
+   "clave": false,
+   "grupo": 2
+  },
+  {
+   "t0": 3.509,
+   "t1": 3.685,
+   "texto": "lo",
+   "clave": false,
+   "grupo": 2
+  },
+  {
+   "t0": 3.685,
+   "t1": 3.993,
+   "texto": "hace?",
+   "clave": false,
+   "grupo": 2
+  },
+  {
+   "t0": 4.343,
+   "t1": 4.628,
+   "texto": "Tiene",
+   "clave": false,
+   "grupo": 3
+  },
+  {
+   "t0": 4.628,
+   "t1": 4.791,
+   "texto": "un",
+   "clave": false,
+   "grupo": 3
+  },
+  {
+   "t0": 4.791,
+   "t1": 5.157,
+   "texto": "reflejo",
+   "clave": true,
+   "grupo": 3
+  },
+  {
+   "t0": 5.157,
+   "t1": 5.605,
+   "texto": "especial,",
+   "clave": false,
+   "grupo": 3
+  },
+  {
+   "t0": 5.605,
+   "t1": 5.808,
+   "texto": "que",
+   "clave": false,
+   "grupo": 4
+  },
+  {
+   "t0": 5.808,
+   "t1": 6.297,
+   "texto": "desarrolla",
+   "clave": false,
+   "grupo": 4
+  },
+  {
+   "t0": 6.297,
+   "t1": 6.622,
+   "texto": "cuando",
+   "clave": false,
+   "grupo": 4
+  },
+  {
+   "t0": 6.622,
+   "t1": 6.907,
+   "texto": "tiene",
+   "clave": false,
+   "grupo": 4
+  },
+  {
+   "t0": 6.907,
+   "t1": 7.192,
+   "texto": "pocas",
+   "clave": false,
+   "grupo": 4
+  },
+  {
+   "t0": 7.192,
+   "t1": 7.558,
+   "texto": "semanas",
+   "clave": false,
+   "grupo": 5
+  },
+  {
+   "t0": 7.558,
+   "t1": 7.721,
+   "texto": "de",
+   "clave": false,
+   "grupo": 5
+  },
+  {
+   "t0": 7.721,
+   "t1": 8.006,
+   "texto": "vida.",
+   "clave": false,
+   "grupo": 5
+  },
+  {
+   "t0": 8.356,
+   "t1": 8.759,
+   "texto": "Primero",
+   "clave": false,
+   "grupo": 6
+  },
+  {
+   "t0": 8.759,
+   "t1": 9.029,
+   "texto": "gira",
+   "clave": false,
+   "grupo": 6
+  },
+  {
+   "t0": 9.029,
+   "t1": 9.208,
+   "texto": "la",
+   "clave": false,
+   "grupo": 6
+  },
+  {
+   "t0": 9.208,
+   "t1": 9.612,
+   "texto": "cabeza,",
+   "clave": false,
+   "grupo": 6
+  },
+  {
+   "t0": 9.612,
+   "t1": 9.926,
+   "texto": "luego",
+   "clave": false,
+   "grupo": 7
+  },
+  {
+   "t0": 9.926,
+   "t1": 10.106,
+   "texto": "la",
+   "clave": false,
+   "grupo": 7
+  },
+  {
+   "t0": 10.106,
+   "t1": 10.42,
+   "texto": "parte",
+   "clave": false,
+   "grupo": 7
+  },
+  {
+   "t0": 10.42,
+   "t1": 10.914,
+   "texto": "delantera",
+   "clave": false,
+   "grupo": 7
+  },
+  {
+   "t0": 10.914,
+   "t1": 11.138,
+   "texto": "del",
+   "clave": false,
+   "grupo": 7
+  },
+  {
+   "t0": 11.138,
+   "t1": 11.542,
+   "texto": "cuerpo,",
+   "clave": false,
+   "grupo": 8
+  },
+  {
+   "t0": 11.542,
+   "t1": 11.676,
+   "texto": "y",
+   "clave": false,
+   "grupo": 9
+  },
+  {
+   "t0": 11.676,
+   "t1": 12.08,
+   "texto": "después",
+   "clave": false,
+   "grupo": 9
+  },
+  {
+   "t0": 12.08,
+   "t1": 12.26,
+   "texto": "la",
+   "clave": false,
+   "grupo": 9
+  },
+  {
+   "t0": 12.26,
+   "t1": 12.709,
+   "texto": "trasera.",
+   "clave": false,
+   "grupo": 9
+  },
+  {
+   "t0": 13.059,
+   "t1": 13.235,
+   "texto": "Lo",
+   "clave": false,
+   "grupo": 10
+  },
+  {
+   "t0": 13.235,
+   "t1": 13.544,
+   "texto": "logra",
+   "clave": false,
+   "grupo": 10
+  },
+  {
+   "t0": 13.544,
+   "t1": 13.897,
+   "texto": "porque",
+   "clave": false,
+   "grupo": 10
+  },
+  {
+   "t0": 13.897,
+   "t1": 14.206,
+   "texto": "tiene",
+   "clave": false,
+   "grupo": 10
+  },
+  {
+   "t0": 14.206,
+   "t1": 14.427,
+   "texto": "una",
+   "clave": false,
+   "grupo": 10
+  },
+  {
+   "t0": 14.427,
+   "t1": 14.824,
+   "texto": "columna",
+   "clave": false,
+   "grupo": 11
+  },
+  {
+   "t0": 14.824,
+   "t1": 15.045,
+   "texto": "muy",
+   "clave": false,
+   "grupo": 11
+  },
+  {
+   "t0": 15.045,
+   "t1": 15.575,
+   "texto": "flexible,",
+   "clave": true,
+   "grupo": 11
+  },
+  {
+   "t0": 15.575,
+   "t1": 15.707,
+   "texto": "y",
+   "clave": false,
+   "grupo": 12
+  },
+  {
+   "t0": 15.707,
+   "t1": 15.884,
+   "texto": "su",
+   "clave": false,
+   "grupo": 12
+  },
+  {
+   "t0": 15.884,
+   "t1": 16.369,
+   "texto": "clavícula",
+   "clave": false,
+   "grupo": 12
+  },
+  {
+   "t0": 16.369,
+   "t1": 16.546,
+   "texto": "no",
+   "clave": false,
+   "grupo": 12
+  },
+  {
+   "t0": 16.546,
+   "t1": 16.811,
+   "texto": "está",
+   "clave": false,
+   "grupo": 12
+  },
+  {
+   "t0": 16.811,
+   "t1": 17.12,
+   "texto": "unida",
+   "clave": false,
+   "grupo": 13
+  },
+  {
+   "t0": 17.12,
+   "t1": 17.252,
+   "texto": "a",
+   "clave": false,
+   "grupo": 13
+  },
+  {
+   "t0": 17.252,
+   "t1": 17.561,
+   "texto": "otros",
+   "clave": false,
+   "grupo": 13
+  },
+  {
+   "t0": 17.561,
+   "t1": 17.959,
+   "texto": "huesos.",
+   "clave": false,
+   "grupo": 13
+  },
+  {
+   "t0": 18.309,
+   "t1": 18.489,
+   "texto": "Al",
+   "clave": false,
+   "grupo": 14
+  },
+  {
+   "t0": 18.489,
+   "t1": 18.806,
+   "texto": "final",
+   "clave": false,
+   "grupo": 14
+  },
+  {
+   "t0": 18.806,
+   "t1": 19.167,
+   "texto": "arquea",
+   "clave": false,
+   "grupo": 14
+  },
+  {
+   "t0": 19.167,
+   "t1": 19.348,
+   "texto": "la",
+   "clave": false,
+   "grupo": 14
+  },
+  {
+   "t0": 19.348,
+   "t1": 19.755,
+   "texto": "espalda",
+   "clave": false,
+   "grupo": 14
+  },
+  {
+   "t0": 19.755,
+   "t1": 19.891,
+   "texto": "y",
+   "clave": false,
+   "grupo": 15
+  },
+  {
+   "t0": 19.891,
+   "t1": 20.252,
+   "texto": "estira",
+   "clave": false,
+   "grupo": 15
+  },
+  {
+   "t0": 20.252,
+   "t1": 20.478,
+   "texto": "las",
+   "clave": false,
+   "grupo": 15
+  },
+  {
+   "t0": 20.478,
+   "t1": 20.84,
+   "texto": "patas,",
+   "clave": false,
+   "grupo": 15
+  },
+  {
+   "t0": 20.84,
+   "t1": 21.111,
+   "texto": "como",
+   "clave": false,
+   "grupo": 16
+  },
+  {
+   "t0": 21.111,
+   "t1": 21.292,
+   "texto": "un",
+   "clave": false,
+   "grupo": 16
+  },
+  {
+   "t0": 21.292,
+   "t1": 21.925,
+   "texto": "paracaídas.",
+   "clave": true,
+   "grupo": 16
+  },
+  {
+   "t0": 22.275,
+   "t1": 22.533,
+   "texto": "Aun",
+   "clave": false,
+   "grupo": 17
+  },
+  {
+   "t0": 22.533,
+   "t1": 22.843,
+   "texto": "así,",
+   "clave": false,
+   "grupo": 17
+  },
+  {
+   "t0": 22.843,
+   "t1": 23.102,
+   "texto": "una",
+   "clave": false,
+   "grupo": 18
+  },
+  {
+   "t0": 23.102,
+   "t1": 23.463,
+   "texto": "caída",
+   "clave": false,
+   "grupo": 18
+  },
+  {
+   "t0": 23.463,
+   "t1": 23.825,
+   "texto": "puede",
+   "clave": false,
+   "grupo": 18
+  },
+  {
+   "t0": 23.825,
+   "t1": 24.497,
+   "texto": "lastimarlo.",
+   "clave": false,
+   "grupo": 18
+  },
+  {
+   "t0": 24.497,
+   "t1": 24.911,
+   "texto": "Cierra",
+   "clave": false,
+   "grupo": 19
+  },
+  {
+   "t0": 24.911,
+   "t1": 25.169,
+   "texto": "las",
+   "clave": false,
+   "grupo": 19
+  },
+  {
+   "t0": 25.169,
+   "t1": 25.738,
+   "texto": "ventanas.",
+   "clave": false,
+   "grupo": 19
+  },
+  {
+   "t0": 25.738,
+   "t1": 26.254,
+   "texto": "Síguenos",
+   "clave": false,
+   "grupo": 20
+  },
+  {
+   "t0": 26.254,
+   "t1": 26.565,
+   "texto": "para",
+   "clave": false,
+   "grupo": 20
+  },
+  {
+   "t0": 26.565,
+   "t1": 26.823,
+   "texto": "más",
+   "clave": false,
+   "grupo": 20
+  },
+  {
+   "t0": 26.823,
+   "t1": 27.598,
+   "texto": "curiosidades.",
+   "clave": false,
+   "grupo": 20
+  }
+ ]
+}
