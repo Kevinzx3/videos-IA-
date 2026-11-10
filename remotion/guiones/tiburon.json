@@ -1,0 +1,54 @@
+{
+ "id": "tiburon",
+ "titulo": "Qué hacer si ves un tiburón cerca",
+ "escenas": [
+  {
+   "texto": "Estás nadando tranquilo, y de repente ves esto acercándose.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a shark fin cutting the water surface heading toward the viewer, calm ocean at dusk seen half underwater, purple to orange gradient sky, soft turquoise water with light rays, sandy bottom, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the fin glides toward the camera"
+  },
+  {
+   "texto": "Primero: *no* chapotees ni nades rápido. Los movimientos bruscos lo atraen.",
+   "rotulo": "NO CHAPOTEES",
+   "movimiento": "pan-der",
+   "prompt": "underwater view of a swimmer floating calmly, a shark circling below, calm ocean at dusk seen half underwater, purple to orange gradient sky, soft turquoise water with light rays, sandy bottom, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the shark circles slowly below the swimmer"
+  },
+  {
+   "texto": "Mantén el contacto visual. A los tiburones no les gusta que los *vean* venir.",
+   "movimiento": "zoom-in",
+   "prompt": "underwater close-up of a shark face looking at the camera, calm ocean at dusk seen half underwater, purple to orange gradient sky, soft turquoise water with light rays, sandy bottom, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the shark turns its head toward the camera"
+  },
+  {
+   "texto": "Retrocede poco a poco hacia la orilla o un bote, sin darle la espalda.",
+   "rotulo": "A LA ORILLA",
+   "movimiento": "pan-izq",
+   "prompt": "swimmer slowly moving backwards toward a small boat, shark fin behind, calm ocean at dusk seen half underwater, purple to orange gradient sky, soft turquoise water with light rays, sandy bottom, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the swimmer backs away slowly toward the boat"
+  },
+  {
+   "texto": "Si ataca, golpea sus *ojos* y sus branquias. Son sus puntos más sensibles.",
+   "rotulo": "OJOS Y BRANQUIAS",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "subida",
+    "latido"
+   ],
+   "prompt": "underwater dramatic view of a shark with open mouth, highlighted eyes and gills, calm ocean at dusk seen half underwater, purple to orange gradient sky, soft turquoise water with light rays, sandy bottom, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the shark lunges, camera shake"
+  },
+  {
+   "texto": "Síguenos para más datos que te pueden salvar.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-out",
+   "prompt": "a shark swimming away into the blue, light rays from the surface, calm ocean at dusk seen half underwater, purple to orange gradient sky, soft turquoise water with light rays, sandy bottom, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the shark swims away into the distance"
+  }
+ ]
+}

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "01_cuerpo_humano",
+    "etiqueta": "¿SABÍAS QUE...?",
+    "titulo": "Tu cuerpo es increíble",
+    "colores": ["#1b0b3a", "#5b1aa8"],
+    "acento": "#FFD400",
+    "lista": false,
+    "escenas": [
+      {"emoji": "🧠", "texto": "Tu cuerpo hace cosas increíbles todos los días, y casi nadie lo sabe."},
+      {"emoji": "🦴", "texto": "Un bebé nace con casi trescientos huesos, pero un adulto solo tiene doscientos seis, porque muchos se fusionan al crecer."},
+      {"emoji": "🫃", "texto": "Tu estómago renueva su capa de moco sin parar. Si no lo hiciera, su propio ácido empezaría a dañarlo."},
+      {"emoji": "📏", "texto": "Por la mañana mides hasta un centímetro más que por la noche, porque los discos de tu columna se comprimen durante el día."},
+      {"emoji": "👁️", "texto": "Y parpadeas unas quince veces por minuto. Eso son miles de parpadeos al día sin darte cuenta."},
+      {"emoji": "👉", "texto": "Síguenos para más datos que no te enseñaron en la escuela."}
+    ]
+  },
+  {
+    "id": "02_perdido_bosque",
+    "etiqueta": "QUÉ HACER SI...",
+    "titulo": "Te pierdes en el bosque",
+    "colores": ["#06281c", "#127a4a"],
+    "acento": "#FFB300",
+    "lista": true,
+    "escenas": [
+      {"emoji": "🌲", "texto": "Si alguna vez te pierdes en el bosque, recuerda una sola palabra: STOP.", "intro": true},
+      {"emoji": "✋", "texto": "S de Stop. Detente. Caminar sin rumbo es lo que más aleja a la gente de quien la busca."},
+      {"emoji": "🤔", "texto": "T de Think. Piensa con calma. ¿Por dónde llegaste? ¿Qué fue lo último que reconociste?"},
+      {"emoji": "👀", "texto": "O de Observa. Busca agua, refugio, y un lugar abierto donde te puedan ver."},
+      {"emoji": "📋", "texto": "P de Planea. Quédate en un solo sitio, y si tienes silbato, sopla tres veces seguidas. Es la señal internacional de auxilio."},
+      {"emoji": "👉", "texto": "Guarda este video. Algún día te puede salvar.", "intro": true}
+    ]
+  },
+  {
+    "id": "03_aburrido",
+    "etiqueta": "SI ESTÁS ABURRIDO...",
+    "titulo": "5 cosas que hacer ya",
+    "colores": ["#3a0b1f", "#c2185b"],
+    "acento": "#00E5FF",
+    "lista": true,
+    "escenas": [
+      {"emoji": "😴", "texto": "¿Estás aburrido? Aquí tienes cinco cosas que puedes hacer ahora mismo.", "intro": true},
+      {"emoji": "✍️", "texto": "Escribe una carta a tu yo de dentro de cinco años, y guárdala en un lugar secreto."},
+      {"emoji": "🎨", "texto": "Dibuja algo con tu mano contraria. Es más difícil de lo que parece, y muy divertido."},
+      {"emoji": "🌍", "texto": "Aprende diez palabras en un idioma que no conozcas. Japonés, por ejemplo."},
+      {"emoji": "🃏", "texto": "Aprende un truco de magia con cartas y sorprende a alguien hoy mismo."},
+      {"emoji": "🧹", "texto": "Ordena un solo cajón. Diez minutos, y te sentirás mucho mejor."},
+      {"emoji": "👉", "texto": "¿Cuál vas a probar primero? Te leo en los comentarios.", "intro": true}
+    ]
+  }
+]

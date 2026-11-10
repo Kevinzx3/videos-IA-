@@ -1,0 +1,53 @@
+{
+ "id": "arenas",
+ "titulo": "Qué hacer si caes en arenas movedizas",
+ "escenas": [
+  {
+   "texto": "Las películas mienten: las arenas movedizas no te tragan por completo.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans sunk up to his waist in quicksand, worried face, muddy riverbank at dusk, purple to orange gradient sky, dark teal reeds and pine silhouettes, wet glossy sand and mud, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he sinks slightly, mud bubbling"
+  },
+  {
+   "texto": "Tu cuerpo es menos denso que la arena mojada, así que como mucho te hundes hasta la *cintura*.",
+   "rotulo": "HASTA LA CINTURA",
+   "movimiento": "pan-der",
+   "prompt": "cross-section diagram style illustration of a person floating in quicksand, sand layers, muddy riverbank at dusk, purple to orange gradient sky, dark teal reeds and pine silhouettes, wet glossy sand and mud, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the sand layers shift slowly"
+  },
+  {
+   "texto": "El peligro real es quedarte atrapado. Así que *no* forcejees.",
+   "rotulo": "NO FORCEJEES",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "latido"
+   ],
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans struggling in quicksand, mud splashing, muddy riverbank at dusk, purple to orange gradient sky, dark teal reeds and pine silhouettes, wet glossy sand and mud, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he thrashes and sinks a bit more, camera shake"
+  },
+  {
+   "texto": "Échate hacia atrás para repartir tu peso, y mueve las piernas muy *despacio*.",
+   "rotulo": "DESPACIO",
+   "movimiento": "zoom-in",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans leaning back on the quicksand surface, arms spread out, muddy riverbank at dusk, purple to orange gradient sky, dark teal reeds and pine silhouettes, wet glossy sand and mud, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he slowly leans back, legs rising"
+  },
+  {
+   "texto": "Así el agua entra, la arena te suelta, y puedes flotar hasta la orilla.",
+   "movimiento": "pan-izq",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans floating on his back and paddling toward solid ground, muddy riverbank at dusk, purple to orange gradient sky, dark teal reeds and pine silhouettes, wet glossy sand and mud, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he paddles slowly toward the bank"
+  },
+  {
+   "texto": "Síguenos para más mitos y verdades de supervivencia.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-out",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans sitting safe on the riverbank, covered in mud, smiling, muddy riverbank at dusk, purple to orange gradient sky, dark teal reeds and pine silhouettes, wet glossy sand and mud, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he wipes mud from his face and smiles"
+  }
+ ]
+}

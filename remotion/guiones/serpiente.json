@@ -1,0 +1,61 @@
+{
+ "id": "serpiente",
+ "titulo": "Qué hacer si te muerde una serpiente de cascabel",
+ "escenas": [
+  {
+   "texto": "Si oyes este sonido en el campo, quédate completamente quieto.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "cascabel"
+   ],
+   "prompt": "close-up of a coiled rattlesnake shaking its rattle, tongue out, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the rattle vibrates quickly, the tongue flicks"
+  },
+  {
+   "texto": "Una serpiente de cascabel puede atacar a una distancia de hasta la *mitad* de su cuerpo.",
+   "rotulo": "½ DE SU LARGO",
+   "movimiento": "pan-der",
+   "prompt": "side view of a rattlesnake stretched out on dry ground near rocks, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the snake slithers slowly"
+  },
+  {
+   "texto": "Aléjate *despacio*, y nunca intentes atraparla ni matarla.",
+   "rotulo": "ALÉJATE",
+   "movimiento": "zoom-out",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans slowly stepping backwards away from a coiled snake, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker steps back slowly"
+  },
+  {
+   "texto": "Si te muerde, llama a *emergencias* de inmediato y mantén la calma.",
+   "rotulo": "LLAMA AL 911",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "subida",
+    "latido"
+   ],
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans sitting on a rock holding a phone to his ear, bandage on his leg, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker talks on the phone, breathing heavily"
+  },
+  {
+   "texto": "Quítate anillos y relojes, y deja la zona de la mordida a la altura del corazón.",
+   "movimiento": "zoom-in",
+   "prompt": "close-up of hands removing a ring and a watch, warm light, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "hands slide off a ring and a watch"
+  },
+  {
+   "texto": "Y *nunca* cortes la herida, ni chupes el veneno, ni pongas hielo.",
+   "rotulo": "NUNCA",
+   "movimiento": "zoom-in",
+   "prompt": "a knife, an ice cube and a tourniquet crossed out with a big red X, on a wooden table, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the red X draws itself over the objects"
+  },
+  {
+   "texto": "Síguenos para más consejos que pueden salvarte la vida.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-out",
+   "prompt": "a rattlesnake resting coiled on a warm rock at sunset, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the snake slowly lifts its head"
+  }
+ ]
+}

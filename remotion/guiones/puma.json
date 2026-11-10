@@ -1,0 +1,69 @@
+{
+ "id": "puma",
+ "titulo": "Qué hacer si te encuentras un puma",
+ "escenas": [
+  {
+   "texto": "Si alguna vez te encuentras cara a cara con un puma, lo que hagas en los próximos segundos puede salvarte la vida.",
+   "movimiento": "zoom-out",
+   "sonidos": [
+    "golpe",
+    "gruñido"
+   ],
+   "prompt": "close-up front view of a snarling cougar showing its fangs, amber eyes, ears back, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cougar snarls and slowly opens its mouth, breath visible, subtle camera push-in"
+  },
+  {
+   "texto": "Es un felino de hasta *cien* kilos, y puede saltar más de cinco metros de un solo impulso.",
+   "rotulo": "100 kg",
+   "movimiento": "pan-der",
+   "sonidos": [
+    "pasos"
+   ],
+   "prompt": "side view of a large cougar walking across the meadow, long tail, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cougar walks slowly from left to right, tail swaying"
+  },
+  {
+   "texto": "Lo primero: *nunca* salgas corriendo. Si corres, activas su instinto de caza.",
+   "rotulo": "NO CORRAS",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "pasos"
+   ],
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans seen from behind, standing still, a cougar staring at him from the tree line, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker freezes, the cougar takes one step forward"
+  },
+  {
+   "texto": "Hazte lo más *grande* posible: levanta los brazos, abre tu chaqueta, y habla con voz fuerte.",
+   "movimiento": "zoom-in",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans seen from behind with both arms raised high, cougar in the distance, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker raises both arms slowly above his head"
+  },
+  {
+   "texto": "Mírale a los ojos, y retrocede *despacio*, sin darle nunca la espalda.",
+   "rotulo": "DESPACIO",
+   "movimiento": "pan-izq",
+   "prompt": "side view of a cougar standing still and staring, tail flicking, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cougar stares, tail flicking, camera slowly pans"
+  },
+  {
+   "texto": "Y si ataca, *defiéndete* con todo: piedras, palos, lo que tengas. Nunca te hagas el muerto.",
+   "rotulo": "DEFIÉNDETE",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "subida",
+    "gruñido",
+    "latido"
+   ],
+   "prompt": "a cougar crouching low ready to pounce, tense muscles, dramatic low angle, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cougar crouches lower and lunges, camera shake"
+  },
+  {
+   "texto": "Síguenos para más consejos que pueden salvarte la vida.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-in",
+   "prompt": "front view of a calm cougar sitting in the meadow, looking at the camera, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the cougar blinks slowly and tilts its head"
+  }
+ ]
+}

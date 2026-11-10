@@ -1,0 +1,65 @@
+{
+ "id": "lobos",
+ "titulo": "Qué hacer si te encuentras una manada de lobos",
+ "escenas": [
+  {
+   "texto": "Si estás en el bosque y escuchas esto, presta mucha atención.",
+   "movimiento": "zoom-in",
+   "sonidos": [
+    "aullido"
+   ],
+   "prompt": "a grey wolf howling on a small rock, silhouetted against the dusk sky, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the wolf lifts its head and howls"
+  },
+  {
+   "texto": "Los lobos casi nunca atacan a las personas, pero una manada puede tener más de *diez* lobos.",
+   "rotulo": "+10 LOBOS",
+   "movimiento": "pan-der",
+   "sonidos": [
+    "pasos"
+   ],
+   "prompt": "a pack of grey wolves walking in a line along the edge of the forest, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the wolves walk in a line from left to right"
+  },
+  {
+   "texto": "Si te ven, *no* corras. Para un lobo, algo que huye es una presa.",
+   "rotulo": "NO CORRAS",
+   "movimiento": "zoom-in",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans seen from behind, frozen, three wolves watching him from the meadow, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the wolves lower their heads and watch"
+  },
+  {
+   "texto": "Ponte de pie, hazte *grande* y haz mucho ruido: grita, aplaude, golpea un palo.",
+   "movimiento": "temblor",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans seen from behind shouting with arms raised, holding a stick, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker waves the stick and shouts"
+  },
+  {
+   "texto": "Retrocede *despacio* sin darles la espalda, y si puedes, sube a un árbol.",
+   "rotulo": "DESPACIO",
+   "movimiento": "pan-izq",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans climbing a thick pine tree, wolves at the bottom, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker climbs while the wolves circle the tree"
+  },
+  {
+   "texto": "Si atacan, *defiéndete* y protege tu cuello y tu cara con los brazos.",
+   "rotulo": "PROTEGE TU CUELLO",
+   "movimiento": "temblor",
+   "efecto": "peligro",
+   "sonidos": [
+    "subida",
+    "gruñido",
+    "latido"
+   ],
+   "prompt": "close-up front view of a snarling grey wolf with yellow eyes, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the wolf snarls and steps forward, camera shake"
+  },
+  {
+   "texto": "Síguenos para más consejos de supervivencia.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-out",
+   "prompt": "a calm grey wolf sitting in the meadow under the stars, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the wolf looks around calmly"
+  }
+ ]
+}

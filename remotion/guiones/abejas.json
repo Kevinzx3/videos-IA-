@@ -1,0 +1,52 @@
+{
+ "id": "abejas",
+ "titulo": "Qué hacer si te ataca un enjambre de abejas",
+ "escenas": [
+  {
+   "texto": "Si un enjambre de abejas empieza a perseguirte, tienes muy pocos segundos.",
+   "movimiento": "temblor",
+   "sonidos": [
+    "golpe"
+   ],
+   "prompt": "a dense dark swarm of bees flying out of a tree hollow, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the swarm pours out of the tree"
+  },
+  {
+   "texto": "*Corre* en línea recta, lo más rápido que puedas. Aquí sí hay que correr.",
+   "rotulo": "CORRE",
+   "movimiento": "pan-der",
+   "sonidos": [
+    "pasos"
+   ],
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans running across the meadow, a swarm of bees behind him, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the hiker runs, the swarm follows"
+  },
+  {
+   "texto": "Cúbrete la cara con la camiseta. Ellas atacan sobre todo la cabeza.",
+   "movimiento": "zoom-in",
+   "prompt": "a hiker with teal jacket, orange backpack, yellow beanie and blue jeans running while pulling his shirt over his face, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "he pulls his shirt up over his face while running"
+  },
+  {
+   "texto": "Métete en un coche o un edificio. *No* saltes al agua: te esperan en la superficie.",
+   "rotulo": "NO AL AGUA",
+   "movimiento": "zoom-in",
+   "prompt": "a small car parked at the edge of the forest, bees bumping against the closed windows, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "bees bounce off the windows"
+  },
+  {
+   "texto": "Después, saca los aguijones raspando con una tarjeta, no con los dedos.",
+   "rotulo": "RASPA",
+   "movimiento": "zoom-in",
+   "prompt": "close-up of a credit card scraping a bee stinger off an arm, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the card slides over the skin removing the stinger"
+  },
+  {
+   "texto": "Síguenos para más consejos de supervivencia.",
+   "rotulo": "SÍGUENOS",
+   "movimiento": "zoom-out",
+   "prompt": "a single cute bee resting on a wildflower in the meadow, forest clearing at dusk, purple to orange gradient sky with faint stars, dark teal pine tree silhouettes, distant purple mountains, thin glowing horizon line, textured green meadow, 2D digital illustration, textured storybook style, soft painterly fur and grass texture, simple rounded shapes with fine grain, cinematic lighting, vertical 9:16 composition, empty top third for captions, no text, no watermark",
+   "movimiento_ia": "the bee flutters its wings"
+  }
+ ]
+}
