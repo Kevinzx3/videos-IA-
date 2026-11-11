@@ -271,12 +271,15 @@ def hz(midi):
     return 440 * 2 ** ((midi - 69) / 12)
 
 
-def musica(dur, bpm=104):
+def musica(dur, bpm=104, modo="alegre"):
     beat = 60 / bpm
     out = np.zeros(int((dur + 2) * SR))
     # progresión: Fmaj7 - Em7 - Dm7 - Cmaj7 (un compás cada una)
     acordes = [[53, 57, 60, 64], [52, 55, 59, 62], [50, 53, 57, 60], [48, 52, 55, 59]]
     escala = [60, 62, 64, 67, 69, 72, 74, 76]
+    if modo == "misterio":  # La menor - Fa - Re menor - Mi (tensión)
+        acordes = [[45, 52, 57, 60], [41, 48, 53, 57], [38, 50, 53, 57], [40, 52, 56, 59]]
+        escala = [57, 60, 62, 64, 65, 69, 72]
     comp = 4 * beat
     n_comp = int(dur / comp) + 2
     r = np.random.default_rng(3)
@@ -317,13 +320,13 @@ def musica(dur, bpm=104):
     return out[: int(dur * SR)]
 
 
-def mezclar(voz_ruta, sfx_ruta, salida, bpm=104, corte_musica=None):
+def mezclar(voz_ruta, sfx_ruta, salida, bpm=104, corte_musica=None, modo="alegre"):
     voz = leer_wav(voz_ruta)
     dur = len(voz) / SR + 0.6
     total = int(dur * SR)
     v = np.zeros(total)
     v[: len(voz)] = voz
-    m = musica(dur, bpm)
+    m = musica(dur, bpm, modo)
     # ducking: la música baja cuando hay voz
     envv = np.sqrt(lp(v ** 2, int(0.05 * SR)))
     duck = 1 / (1 + envv / 0.02 * 3)
@@ -359,5 +362,6 @@ if __name__ == "__main__":
     ap.add_argument("salida")
     ap.add_argument("--bpm", type=float, default=104)
     ap.add_argument("--corte", type=float, nargs=2, default=None)
+    ap.add_argument("--modo", default="alegre", choices=["alegre", "misterio"])
     a = ap.parse_args()
-    mezclar(a.voz, a.sfx, a.salida, a.bpm, a.corte)
+    mezclar(a.voz, a.sfx, a.salida, a.bpm, a.corte, a.modo)

@@ -51,3 +51,13 @@ Video terminado: `dia-01/videos/01-mas-alto-por-la-manana.mp4` (1080×1920, 30 f
 | 02 | El pulpo tiene 3 corazones… y uno se apaga al nadar (¿Sabías que…?) | ¿Solo usas el 10 % de tu cerebro? MITO (Mitos vs. realidad) |
 
 Videos terminados en `dia-0X/videos/`. Escenas de cada video: `herramientas/animar/video_d01a.py`, `video_d01b.py`, `video_d02a.py`, `video_d02b.py`.
+| 03 | Un día en Venus dura más que un año (¿Sabías que…?) | La señal Wow!: 72 segundos que nadie ha explicado (Misterio) |
+| 04 | Las piedras que se mueven solas (Misterio resuelto) | Triángulo de las Bermudas: el misterio que no lo es (Mito) |
+
+### Voz con ElevenLabs (desde el día 3)
+```bash
+python3 herramientas/voz_elevenlabs.py dia-03/datos/01-venus-dia-mas-largo-que-ano.json voz.wav   # voz Liam + tiempos por palabra
+python3 herramientas/acelerar_voz.py dia-03/datos/01-venus-dia-mas-largo-que-ano.json voz.wav --objetivo 58.5
+python3 herramientas/generar_subtitulos.py dia-03/datos/*.json --salida dia-03/subtitulos
+```
+La clave se lee de `ELEVENLABS_API_KEY` (en la nube la inyecta el proxy). Para misterios, mezcla con `audio.py --modo misterio`.

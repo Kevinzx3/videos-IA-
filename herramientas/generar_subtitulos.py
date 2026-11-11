@@ -100,8 +100,13 @@ def generar(ruta_json: Path, salida: Path):
     datos = json.loads(ruta_json.read_text(encoding="utf-8"))
     enfasis = {limpiar(e) for e in datos.get("enfasis", [])}
     palabras = []
-    for ini, fin, texto in datos["segmentos"]:
-        palabras.extend(tiempos_palabras(ini, fin, texto))
+    if datos.get("palabras"):  # tiempos exactos de la voz (ElevenLabs with-timestamps)
+        ps = datos["palabras"]
+        # cada palabra se mantiene hasta que empieza la siguiente (sin huecos)
+        palabras = [(a, max(b, ps[k + 1][0]) if k + 1 < len(ps) else b + 0.3, w) for k, (a, b, w) in enumerate(ps)]
+    else:
+        for ini, fin, texto in datos["segmentos"]:
+            palabras.extend(tiempos_palabras(ini, fin, texto))
 
     base = salida / ruta_json.stem
     # SRT palabra por palabra
