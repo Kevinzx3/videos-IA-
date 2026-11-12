@@ -61,3 +61,6 @@ python3 herramientas/acelerar_voz.py dia-03/datos/01-venus-dia-mas-largo-que-ano
 python3 herramientas/generar_subtitulos.py dia-03/datos/*.json --salida dia-03/subtitulos
 ```
 La clave se lee de `ELEVENLABS_API_KEY` (en la nube la inyecta el proxy). Para misterios, mezcla con `audio.py --modo misterio`.
+| 05 | ¿Por qué el cielo es azul? (Ciencia fácil) | El Bloop: el sonido gigante bajo el océano (Misterio) |
+| 06 | ¿Tienes 10 veces más bacterias que células? MITO | Mary Celeste: el barco que apareció sin tripulación (Misterio) |
+| 07 | ¿Y si caes por un agujero que atraviesa la Tierra? (Ciencia fácil) | Las luces de Hessdalen (Misterio) |
