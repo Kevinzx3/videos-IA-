@@ -132,7 +132,7 @@ def e_comida(t, d):
         s = pop_scale(t - at)
         if s:
             pegar(c, comida(tipo), x, 1250 + math.sin(t * 3 + k) * 15, 1.4 * s, rot=math.sin(t * 2 + k) * 8)
-            texto(c, nom, x, 1500, t - at, 70, "#FFFFFF")
+            texto(c, nom, x, 1500, t - at, 54, "#FFFFFF")
     return c, dict(zoom=1.0 + 0.03 * t, t=t)
 
 
