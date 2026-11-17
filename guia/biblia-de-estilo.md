@@ -32,6 +32,19 @@ Una píldora redondeada de fondo `#1A1A1A` al 70 %, número en **Montserrat Extr
 - **Expresiones de catálogo:** sorpresa (boca en "O", cejas arriba), "¡ajá!" (dedo índice levantado), pánico cómico (ojos en espiral), escéptico (una ceja arriba) y orgullo (brazos en jarra).
 - Se le ve de frente, de perfil y de espaldas (cenital, como el excursionista del video de referencia).
 
+#### Vestuario según el tema (obligatorio)
+Nico **se viste según el contexto de cada video**. Se elige con `nico(..., ropa="<clave>")` en `herramientas/animar/motor.py` (diccionario `ROPAS`). Muestra: [`vestuario-nico.png`](vestuario-nico.png).
+
+| Clave | Cuándo usarla | Qué lleva |
+|---|---|---|
+| `explorador` | Naturaleza, animales, misterios en exteriores, temas generales | Impermeable mostaza, gorro rojo, mochila verde (vestuario base) |
+| `buzo` | Mar, océano, playa, animales marinos, sonidos submarinos | Neopreno, gafas de buceo con tubo, botella de aire y aletas |
+| `astronauta` | Espacio, planetas, gravedad, cielo | Traje blanco, casco transparente y mochila de soporte vital |
+| `cientifico` | Cuerpo humano, cerebro, química, laboratorio, mitos de salud | Bata blanca con bolsillo, camisa azul y pelo al aire |
+| `invierno` | Frío, nieve, polos, montaña | Abrigo azul, bufanda roja, gorro y mochila |
+
+Si un tema no encaja en ninguna, se añade una entrada nueva a `ROPAS` en lugar de forzar otra. Dentro de un mismo video Nico puede cambiar de ropa si cambia el escenario (p. ej. de la playa al laboratorio).
+
 ### Chispa, la ayudante
 - Pequeña luciérnaga redonda, del tamaño de un puño de Nico, con un cuerpo de fieltro **cian** `#3DE0E6` y una cola que brilla en amarillo.
 - Es la que **trae las etiquetas de datos** y señala lo importante. No habla: hace ruiditos (*blip*).

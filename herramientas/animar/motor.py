@@ -355,7 +355,7 @@ OSCURO = (40, 28, 30)
 
 
 @lru_cache(maxsize=64)
-def _parte(nombre, traje=MOSTAZA):
+def _parte(nombre, traje=MOSTAZA, estilo="botones", pantalon=MARINO, calzado=BOTAS):
     """Partes de Nico en coordenadas locales (sprites cacheados)."""
     if nombre == "cabeza":
         m, d = nueva_mascara(250, 250)
@@ -384,9 +384,18 @@ def _parte(nombre, traje=MOSTAZA):
         spr = sprite(cerrar_mascara(m), traje, 36)
         d2 = ImageDraw.Draw(spr)
         c = oscurecer(hexrgb(traje), 0.25)
-        d2.line([(150, 40), (150, 270)], fill=c + (255,), width=5)
-        for y in (110, 170, 230):
-            d2.ellipse([128, y - 9, 146, y + 9], fill=(60, 40, 30, 255))
+        if estilo == "bata":  # bata de laboratorio: solapas, camisa y bolsillo
+            d2.polygon([(110, 20), (150, 110), (190, 20)], fill=(110, 160, 220, 255))
+            d2.line([(110, 20), (150, 150), (190, 20)], fill=c + (255,), width=6)
+            d2.rectangle([180, 170, 240, 215], outline=c + (255,), width=5)
+            d2.line([(150, 150), (150, 275)], fill=c + (255,), width=4)
+        elif estilo == "cremallera":  # neopreno / traje espacial
+            d2.line([(150, 30), (150, 275)], fill=(230, 230, 235, 255), width=6)
+            d2.rectangle([40, 150, 260, 175], fill=(61, 224, 230, 255))
+        else:
+            d2.line([(150, 40), (150, 270)], fill=c + (255,), width=5)
+            for y in (110, 170, 230):
+                d2.ellipse([128, y - 9, 146, y + 9], fill=(60, 40, 30, 255))
         return spr
     if nombre == "mochila":
         m, d = nueva_mascara(340, 260)
@@ -410,15 +419,52 @@ def _parte(nombre, traje=MOSTAZA):
     if nombre == "pierna":
         m, d = nueva_mascara(80, 160)
         d.rounded_rectangle([10 * SS, 0, 70 * SS, 130 * SS], radius=24 * SS, fill=255)
-        pierna = sprite(cerrar_mascara(m), MARINO, 41)
+        pierna = sprite(cerrar_mascara(m), pantalon, 41)
         b, db = nueva_mascara(80, 160)
         db.rounded_rectangle([0, 110 * SS, 80 * SS, 158 * SS], radius=22 * SS, fill=255)
-        bota = sprite(cerrar_mascara(b), BOTAS, 42, costura=False)
+        bota = sprite(cerrar_mascara(b), calzado, 42, costura=False)
         out = Image.new("RGBA", (80, 160), (0, 0, 0, 0))
         out.alpha_composite(pierna)
         out.alpha_composite(bota)
         return out
+    if nombre == "pelo":
+        m, d = nueva_mascara(270, 150)
+        d.pieslice([10 * SS, 10 * SS, 260 * SS, 260 * SS], 180, 360, fill=255)
+        d.ellipse([150 * SS, 40 * SS, 250 * SS, 110 * SS], fill=255)  # flequillo
+        return sprite(cerrar_mascara(m), "#5A3522", 43, pelo=True)
+    if nombre == "tanque":
+        m, d = nueva_mascara(300, 300)
+        for x in (20, 160):
+            d.rounded_rectangle([x * SS, 0, (x + 120) * SS, 300 * SS], radius=58 * SS, fill=255)
+        return sprite(cerrar_mascara(m), "#F2C230", 44)
+    if nombre == "soporte":
+        m, d = nueva_mascara(330, 280)
+        d.rounded_rectangle([10 * SS, 10 * SS, 320 * SS, 270 * SS], radius=30 * SS, fill=255)
+        return sprite(cerrar_mascara(m), "#B8BEC8", 45)
+    if nombre == "aleta":
+        m, d = nueva_mascara(150, 110)
+        d.polygon([(40 * SS, 0), (110 * SS, 0), (150 * SS, 110 * SS), (0, 110 * SS)], fill=255)
+        return sprite(cerrar_mascara(m), "#F2C230", 46)
     raise KeyError(nombre)
+
+
+# Vestuario de Nico según el tema del video (ver biblia de estilo, sección 2).
+ROPAS = {
+    "explorador": dict(traje=MOSTAZA, estilo="botones", pantalon=MARINO, calzado=BOTAS, espalda="mochila", cabeza="gorro"),
+    "buzo": dict(traje="#1F2A3C", estilo="cremallera", pantalon="#1F2A3C", calzado="#1F2A3C", espalda="tanque", cabeza="pelo", visor=True, aletas=True),
+    "astronauta": dict(traje="#E8ECF2", estilo="cremallera", pantalon="#E8ECF2", calzado="#C9CED8", espalda="soporte", cabeza="pelo", casco=True),
+    "cientifico": dict(traje="#F4F4F2", estilo="bata", pantalon=MARINO, calzado="#3A2A22", espalda=None, cabeza="pelo"),
+    "invierno": dict(traje="#3E6FB0", estilo="cremallera", pantalon="#2A2A3A", calzado=BOTAS, espalda="mochila", cabeza="gorro", bufanda=True),
+}
+
+
+def _visor(d, cx, cy):
+    """Gafas de buceo con tubo (snorkel) sobre los ojos."""
+    d.rounded_rectangle([cx - 105, cy - 55, cx + 105, cy + 45], radius=40, fill=(120, 200, 230, 110), outline=(30, 30, 40, 255), width=12)
+    d.line([(cx - 125, cy - 10), (cx - 105, cy - 10)], fill=(30, 30, 40, 255), width=16)
+    d.line([(cx + 105, cy - 10), (cx + 125, cy - 10)], fill=(30, 30, 40, 255), width=16)
+    d.line([(cx + 128, cy + 90), (cx + 128, cy - 150)], fill=(242, 194, 48, 255), width=22)
+    d.arc([cx + 60, cy + 40, cx + 130, cy + 130], 0, 120, fill=(242, 194, 48, 255), width=22)
 
 
 def _cara(d, cx, cy, expr, t):
@@ -486,8 +532,15 @@ def _pivote(dst, spr, piv, pos, ang):
 
 
 def nico(t=0.0, expr="normal", brazo_i=10, brazo_d=-10, pierna_i=0, pierna_d=0,
-         traje=MOSTAZA, casco=False, respirar=True):
-    """Devuelve sprite RGBA de Nico (pies en el borde inferior), ~760 px de alto."""
+         traje=None, casco=None, respirar=True, ropa="explorador"):
+    """Devuelve sprite RGBA de Nico (pies en el borde inferior), ~760 px de alto.
+
+    ropa: clave de ROPAS (explorador, buzo, astronauta, cientifico, invierno).
+    traje/casco, si se pasan, sobrescriben el color del traje y el casco de esa ropa.
+    """
+    R = ROPAS[ropa]
+    traje = traje or R["traje"]
+    casco = R.get("casco", False) if casco is None else casco
     Wn, Hn = 560, 800
     img = Image.new("RGBA", (Wn, Hn), (0, 0, 0, 0))
     cx = Wn // 2
@@ -495,22 +548,30 @@ def nico(t=0.0, expr="normal", brazo_i=10, brazo_d=-10, pierna_i=0, pierna_d=0,
     resp = 1 + (0.012 * math.sin(t * 3.2) if respirar else 0)
     # piernas
     for s, ang in ((-1, pierna_i), (1, pierna_d)):
-        _pivote(img, _parte("pierna"), (40, 6), (cx + s * 50, pie - 154), ang)
+        _pivote(img, _parte("pierna", MOSTAZA, "botones", R["pantalon"], R["calzado"]), (40, 6), (cx + s * 50, pie - 154), ang)
+        if R.get("aletas"):
+            _pivote(img, _parte("aleta"), (75, 10), (cx + s * 60, pie - 30), ang)
     torso_y = pie - 150 - 280
     # mochila detrás
-    mo = _parte("mochila")
-    img.alpha_composite(mo, (cx - mo.width // 2, torso_y + 20))
+    if R["espalda"]:
+        mo = _parte(R["espalda"])
+        img.alpha_composite(mo, (cx - mo.width // 2, torso_y + (20 if R["espalda"] == "mochila" else -10)))
     # brazos (pivote en hombro)
     hombro_y = torso_y + 45
     for s, ang in ((-1, brazo_i), (1, brazo_d)):
         _pivote(img, _parte("brazo", traje), (40, 22), (cx + s * 122, hombro_y), ang * s)
-    to = _parte("torso", traje)
+    to = _parte("torso", traje, R["estilo"])
     if abs(resp - 1) > 1e-3:
         to = to.resize((to.width, int(to.height * resp)), Image.BILINEAR)
     img.alpha_composite(to, (cx - to.width // 2, torso_y + 290 - to.height))
-    for s in (-1, 1):
-        tir = _parte("tirante")
-        img.alpha_composite(tir, (cx + s * 70 - 20, torso_y + 10))
+    if R["espalda"] in ("mochila", "tanque"):
+        for s in (-1, 1):
+            tir = _parte("tirante")
+            img.alpha_composite(tir, (cx + s * 70 - 20, torso_y + 10))
+    if R.get("bufanda"):
+        db = ImageDraw.Draw(img)
+        db.rounded_rectangle([cx - 120, torso_y - 10, cx + 120, torso_y + 45], radius=25, fill=hexrgb(ROJO) + (255,))
+        db.rounded_rectangle([cx + 40, torso_y + 20, cx + 95, torso_y + 160], radius=20, fill=oscurecer(hexrgb(ROJO), 0.1) + (255,))
     # cabeza
     hy = torso_y - 200
     for s in (-1, 1):
@@ -521,13 +582,18 @@ def nico(t=0.0, expr="normal", brazo_i=10, brazo_d=-10, pierna_i=0, pierna_d=0,
     capa = Image.new("RGBA", img.size, (0, 0, 0, 0))
     _cara(ImageDraw.Draw(capa), cx, hy + 130, expr, t)
     img.alpha_composite(capa)
-    # gorro
-    g = _parte("gorro")
-    img.alpha_composite(g, (cx - 140, hy - 112))
-    dob = _parte("doblez")
-    img.alpha_composite(dob, (cx - 145, hy + 6))
-    pp = _parte("pompon")
-    img.alpha_composite(pp, (cx - 45 + int(4 * math.sin(t * 5)), hy - 140))
+    if R["cabeza"] == "gorro":
+        g = _parte("gorro")
+        img.alpha_composite(g, (cx - 140, hy - 112))
+        dob = _parte("doblez")
+        img.alpha_composite(dob, (cx - 145, hy + 6))
+        pp = _parte("pompon")
+        img.alpha_composite(pp, (cx - 45 + int(4 * math.sin(t * 5)), hy - 140))
+    else:
+        pe = _parte("pelo")
+        img.alpha_composite(pe, (cx - 135, hy - 18))
+    if R.get("visor"):
+        _visor(ImageDraw.Draw(img), cx, hy + 125)
     if casco:
         c = Image.new("RGBA", img.size, (0, 0, 0, 0))
         dc = ImageDraw.Draw(c)
