@@ -1,2 +1,6 @@
 videos/*/sfx/
 videos/*/mezcla.m4a
+__pycache__/
+*.pyc
+*.tmp.wav
+para-subir/*.mp4
