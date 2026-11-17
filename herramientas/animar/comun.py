@@ -11,10 +11,15 @@ from motor import _comp  # noqa
 RAIZ = Path(__file__).resolve().parents[2]
 
 
+def _ajustar(r, ancho=990):
+    return min(1.0, ancho / r.width)
+
+
 def texto(c, txt, x, y, tl, tam=120, color="#FFFFFF", rot=0):
     s = pop_scale(tl)
     if s > 0:
-        hud(rotulo(txt, tam, color, rot=rot), x, y, s)
+        r = rotulo(txt, tam, color, rot=rot)
+        hud(r, x, y, s * _ajustar(r))
 
 
 def tag(c, val, uni, x, y, tl, tam=130):
@@ -177,7 +182,8 @@ def calendario(dia, mes, anio=None):
 def sello(c, txt, t, color="#FF4D6D", y=1050, tam=170, rot=-12):
     s = pop_scale(t, 0.25)
     if s:
-        hud(rotulo(txt, tam, color, "#FFFFFF", 14, rot=rot), 540, y, (2.2 - 1.2 * s) if s < 1 else 1.0)
+        r = rotulo(txt, tam, color, "#FFFFFF", 14, rot=rot)
+        hud(r, 540, y, ((2.2 - 1.2 * s) if s < 1 else 1.0) * _ajustar(r, 1000))
 
 
 def barras(c, valores, etiquetas, colores, t, x0=180, y0=1450, ancho=720, alto_max=650, maximo=None):

@@ -64,3 +64,8 @@ La clave se lee de `ELEVENLABS_API_KEY` (en la nube la inyecta el proxy). Para m
 | 05 | ¿Por qué el cielo es azul? (Ciencia fácil) | El Bloop: el sonido gigante bajo el océano (Misterio) |
 | 06 | ¿Tienes 10 veces más bacterias que células? MITO | Mary Celeste: el barco que apareció sin tripulación (Misterio) |
 | 07 | ¿Y si caes por un agujero que atraviesa la Tierra? (Ciencia fácil) | Las luces de Hessdalen (Misterio) |
+| 08 | Expediente Misterio #1: el Vuelo 19 | El animal que sobrevive en el espacio (tardígrados) |
+| 09 | Expediente Misterio #2: el paso Diátlov | Un rayo es 5 veces más caliente que el Sol |
+| 10 | Expediente Misterio #3: el manuscrito Voynich | La miel que nunca caduca |
+
+Desde el día 8 los videos duran más de 60 s (requisito de TikTok Creator Rewards) y se generan con la plantilla por datos `herramientas/animar/plantilla.py` + `planos_d08_10.py`.
