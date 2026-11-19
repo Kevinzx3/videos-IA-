@@ -126,3 +126,31 @@ Si tu audiencia principal está en España, usa esas horas en hora peninsular. S
 - [ ] Los subtítulos están dentro de las zonas seguras.
 - [ ] La voz suena clara en el altavoz del móvil y la música no tapa las consonantes.
 - [ ] Exportación 1080×1920, 30 fps, H.264, 10–16 Mbps, AAC 320 kbps.
+
+---
+
+## 9. Lo que funciona (datos reales de Facebook Reels, 19-nov-2026)
+
+| Video | Vistas | Tema |
+|---|---|---|
+| Un día en Venus dura más que un año | 10 592 | Espacio · ¿Sabías que…? |
+| La señal Wow! | 5 970 | Misterio del espacio |
+| El Bloop | 3 001 | Misterio del océano (sonido) |
+| Túnel a través de la Tierra | 1 503 | Física «¿y si…?» |
+| Más alto por la mañana | 1 377 | Cuerpo humano |
+| Mary Celeste | 993 | Misterio histórico |
+| Piedras que se mueven solas | 712 | Misterio resuelto |
+| Pulpo de 3 corazones | 514 | Animales |
+| Mito del 10 % del cerebro | 391 | Mito |
+| Cielo azul | 348 | Ciencia fácil |
+| Corriente de resaca | 289 | Qué hacer si… |
+| Bacterias ×10 | 282 | Mito |
+| Triángulo de las Bermudas | 256 | Mito |
+
+**Conclusiones (aplicar a partir del día 09):**
+1. **Espacio y misterios sin resolver** son lo que más se ve (los 3 primeros). Priorizarlos: al menos 1 de los 2 videos diarios.
+2. Los **mitos** son los que menos funcionan: máximo 1 por semana, y mejor si el mito es del espacio o de un misterio.
+3. Gancho con **un dato imposible** ("un día dura más que un año", "una señal que nunca se repitió"), no con una pregunta genérica.
+4. Los misterios que **siguen sin explicación** (Wow!, Bloop antes del giro) retienen más que los ya resueltos.
+
+TikTok y YouTube no tienen datos en Metricool (la cuenta llegó a su límite y no publica desde el 13-nov), así que esta tabla es solo de Facebook.
